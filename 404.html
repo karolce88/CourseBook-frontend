@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Coursebook</title>
+   <style>
+    @font-face {
+        font-family: "Montserrat";
+        font-display: swap;
+        src: url("./dist/fonts/Montserrat-Regular.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "Montserrat";
+        font-display: swap;
+        src: url("./dist/fonts/Montserrat-Medium.ttf") format("truetype");
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "Montserrat";
+        font-display: swap;
+        src: url("./dist/fonts/Montserrat-SemiBold.ttf") format("truetype");
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "Montserrat";
+        font-display: swap;
+        src: url("./dist/fonts/Montserrat-Bold.ttf") format("truetype");
+        font-weight: 700;
+        font-style: normal;
+    }
+</style>
+   <link rel="stylesheet" href="./dist/css/global.min.css">
+   <link rel="stylesheet" href="./dist/css/contact.min.css">
+
+</head>
+
+<body>
+   <div class="bar">
+    <div class="container">
+        <div class="bar__inner">
+            <div class="bar__box">
+                <div class="bar__box-office">
+                    <p>Biuro obsługi klienta:</p>
+                    <a href="tel:+123456789">+48 536 918 642</a>
+                </div>
+                <div class="bar__separator"></div>
+                <ul class="bar__box-menu">
+                    <li class="bar__menu-item">
+                        <a class="bar__menu-link" href="#">O nas</a>
+                    </li>
+                    <li class="bar__menu-item">
+                        <a class="bar__menu-link" href="#">Pytania</a>
+                    </li>
+                    <li class="bar__menu-item">
+                        <a class="bar__menu-link" href="#">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<nav class="nav">
+    <div class="container">
+        <div class="nav__inner">
+            <div class="nav__left">
+                <a href="./index.html" class="nav__left-logo">
+                    CourseBook
+                </a>
+
+                <div class="nav__left-drop">
+                    <p class="nav__menu-link">
+                        Szkolenia
+                    </p>
+                    <svg class="nav__menu-link-svg" width="34" height="34" viewBox="0 0 34 34" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10.4975 12.155L17 18.6575L23.5025 12.155L25.5 14.1667L17 22.6667L8.5 14.1667L10.4975 12.155Z"
+                            fill="#FF7700" />
+                    </svg>
+                    <div class="nav__submenu">
+                        <div class="nav__submenu-list">
+                            <a href="#" class="nav__submenu-item">
+                                <div class="nav__submenu-name">
+                                    Dolnośląskie
+                                </div>
+                                <div class="nav__submenu-desc">
+                                    Zapraszamy do odkrycia fascynujących szkoleń województwa dolnośląskiego, które
+                                    stanowią
+                                    prawdziwe kulinarne doświadczenie
+                                </div>
+                            </a>
+                            <a href="#" class="nav__submenu-item">
+                                <div class="nav__submenu-name">
+                                    Kujawsko-Pomorskie
+                                </div>
+                                <div class="nav__submenu-desc">
+                                    Zapraszamy do odkrycia fascynujących szkoleń województwa kujawsko-pomorskiego, które
+                                    stanowią
+                                    prawdziwe kulinarne doświadczenie
+                                </div>
+                            </a>
+                            <a href="#" class="nav__submenu-item">
+                                <div class="nav__submenu-name">
+                                    Lubelskie
+                                </div>
+                                <div class="nav__submenu-desc">
+                                    Zapraszamy do odkrycia fascynujących szkoleń województwa lubelskiego, które
+                                    stanowią
+                                    prawdziwe kulinarne doświadczenie
+                                </div>
+                            </a>
+                            <a href="#" class="nav__submenu-item">
+                                <div class="nav__submenu-name">
+                                    Lubuskie
+                                </div>
+                                <div class="nav__submenu-desc">
+                                    Zapraszamy do odkrycia fascynujących szkoleń województwa lubuskiego, które
+                                    stanowią
+                                    prawdziwe kulinarne doświadczenie
+                                </div>
+                            </a>
+                            <a href="#" class="nav__submenu-item">
+                                <div class="nav__submenu-name">
+                                    Łódzkie
+                                </div>
+                                <div class="nav__submenu-desc">
+                                    Zapraszamy do odkrycia fascynujących szkoleń województwa łódzkiego, które
+                                    stanowią
+                                    prawdziwe kulinarne doświadczenie
+                                </div>
+                            </a>
+                            <a href="#" class="nav__submenu-item">
+                                <div class="nav__submenu-name">
+                                    Małopolskie
+                                </div>
+                                <div class="nav__submenu-desc">
+                                    Zapraszamy do odkrycia fascynujących szkoleń województwa małopolskiego, które
+                                    stanowią
+                                    prawdziwe kulinarne doświadczenie
+                                </div>
+                            </a>
+                            <a href="#" class="nav__submenu-item">
+                                <div class="nav__submenu-name">
+                                    Mazowieckie
+                                </div>
+                                <div class="nav__submenu-desc">
+                                    Zapraszamy do odkrycia fascynujących szkoleń województwa mazowieckiego, które
+                                    stanowią
+                                    prawdziwe kulinarne doświadczenie
+                                </div>
+                            </a>
+                            <a href="#" class="nav__submenu-item">
+                                <div class="nav__submenu-name">
+                                    Opolskie
+                                </div>
+                                <div class="nav__submenu-desc">
+                                    Zapraszamy do odkrycia fascynujących szkoleń województwa opolskiego, które
+                                    stanowią
+                                    prawdziwe kulinarne doświadczenie
+                                </div>
+                            </a>
+                            <a href="#" class="nav__submenu-item">
+                                <div class="nav__submenu-name">
+                                    Podkarpackie
+                                </div>
+                                <div class="nav__submenu-desc">
+                                    Zapraszamy do odkrycia fascynujących szkoleń województwa podkarpackiego, które
+                                    stanowią
+                                    prawdziwe kulinarne doświadczenie
+                                </div>
+                            </a>
+                            <a href="#" class="nav__submenu-item">
+                                <div class="nav__submenu-name">
+                                    Podlaskie
+                                </div>
+                                <div class="nav__submenu-desc">
+                                    Zapraszamy do odkrycia fascynujących szkoleń województwa podlaskiego, które
+                                    stanowią
+                                    prawdziwe kulinarne doświadczenie
+                                </div>
+                            </a>
+                            <a href="#" class="nav__submenu-item">
+                                <div class="nav__submenu-name">
+                                    Pomorskie
+                                </div>
+                                <div class="nav__submenu-desc">
+                                    Zapraszamy do odkrycia fascynujących szkoleń województwa pomorskiego, które
+                                    stanowią
+                                    prawdziwe kulinarne doświadczenie
+                                </div>
+                            </a>
+                            <a href="#" class="nav__submenu-item">
+                                <div class="nav__submenu-name">
+                                    Śląskie
+                                </div>
+                                <div class="nav__submenu-desc">
+                                    Zapraszamy do odkrycia fascynujących szkoleń województwa śląskiego, które
+                                    stanowią
+                                    prawdziwe kulinarne doświadczenie
+                                </div>
+                            </a>
+                            <a href="#" class="nav__submenu-item">
+                                <div class="nav__submenu-name">
+                                    Świętokrzyskie
+                                </div>
+                                <div class="nav__submenu-desc">
+                                    Zapraszamy do odkrycia fascynujących szkoleń województwa świętokrzyskiego, które
+                                    stanowią
+                                    prawdziwe kulinarne doświadczenie
+                                </div>
+                            </a>
+                            <a href="#" class="nav__submenu-item">
+                                <div class="nav__submenu-name">
+                                    Warmińsko-mazurskie
+                                </div>
+                                <div class="nav__submenu-desc">
+                                    Zapraszamy do odkrycia fascynujących szkoleń województwa warmińsko-mazurskiego,
+                                    które
+                                    stanowią
+                                    prawdziwe kulinarne doświadczenie
+                                </div>
+                            </a>
+                            <a href="#" class="nav__submenu-item">
+                                <div class="nav__submenu-name">
+                                    Wielkopolskie
+                                </div>
+                                <div class="nav__submenu-desc">
+                                    Zapraszamy do odkrycia fascynujących szkoleń województwa wielkopolskiego, które
+                                    stanowią
+                                    prawdziwe kulinarne doświadczenie
+                                </div>
+                            </a>
+                            <a href="#" class="nav__submenu-item">
+                                <div class="nav__submenu-name">
+                                    Zachpdniopomorskie
+                                </div>
+                                <div class="nav__submenu-desc">
+                                    Zapraszamy do odkrycia fascynujących szkoleń województwa zachodniopomorskiego, które
+                                    stanowią
+                                    prawdziwe kulinarne doświadczenie
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <ul class="nav__left-menu">
+                    <li class="nav__menu-item">
+                        <a href="#" class="nav__menu-link">
+                            Nowości
+                        </a>
+                    </li>
+                    <li class="nav__menu-item">
+                        <a href="#" class="nav__menu-link">
+                            Blog
+                        </a>
+                    </li>
+                    <li class="nav__menu-item">
+                        <a href="#" class="nav__menu-link">
+                            Galeria
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav__right">
+                <div class="nav__account">
+
+
+                    <a href="./login.html">
+                        <svg class="nav__right-user" width="34" height="34" viewBox="0 0 34 34" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M17 5.66663C18.5029 5.66663 19.9442 6.26365 21.0069 7.32635C22.0696 8.38906 22.6666 9.8304 22.6666 11.3333C22.6666 12.8362 22.0696 14.2775 21.0069 15.3402C19.9442 16.4029 18.5029 17 17 17C15.4971 17 14.0557 16.4029 12.993 15.3402C11.9303 14.2775 11.3333 12.8362 11.3333 11.3333C11.3333 9.8304 11.9303 8.38906 12.993 7.32635C14.0557 6.26365 15.4971 5.66663 17 5.66663ZM17 19.8333C23.2616 19.8333 28.3333 22.3691 28.3333 25.5V28.3333H5.66663V25.5C5.66663 22.3691 10.7383 19.8333 17 19.8333Z"
+                                fill="#12263A" />
+                        </svg>
+                    </a>
+
+
+                    <svg class="nav__right-cart" width="34" height="34" viewBox="0 0 34 34" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10.0625 4.25C9.78071 4.25 9.51046 4.36194 9.3112 4.5612C9.11194 4.76046 9 5.03071 9 5.3125C9 5.59429 9.11194 5.86454 9.3112 6.0638C9.51046 6.26306 9.78071 6.375 10.0625 6.375H10.5853C10.816 6.3754 11.0403 6.45088 11.2243 6.59005C11.4083 6.72921 11.542 6.92449 11.6053 7.14637L14.9755 18.9401C15.1661 19.6057 15.5682 20.1911 16.1211 20.6078C16.6739 21.0246 17.3474 21.25 18.0398 21.25H27.7489C28.386 21.2501 29.0086 21.0592 29.5363 20.7021C30.0639 20.3449 30.4724 19.8377 30.709 19.2461L33.8412 11.4134C33.97 11.0911 34.0179 10.7421 33.9806 10.3971C33.9434 10.052 33.8222 9.72127 33.6277 9.43385C33.4331 9.14643 33.1711 8.91103 32.8646 8.74824C32.5581 8.58545 32.2163 8.50022 31.8692 8.5H14.202L13.6474 6.562C13.4572 5.89639 13.0556 5.31077 12.5031 4.89366C11.9507 4.47654 11.2775 4.2506 10.5853 4.25H10.0625ZM18.5625 29.75C18.9811 29.75 19.3956 29.6676 19.7823 29.5074C20.169 29.3472 20.5204 29.1124 20.8164 28.8164C21.1124 28.5204 21.3472 28.169 21.5074 27.7823C21.6676 27.3956 21.75 26.9811 21.75 26.5625C21.75 26.1439 21.6676 25.7294 21.5074 25.3427C21.3472 24.956 21.1124 24.6046 20.8164 24.3086C20.5204 24.0126 20.169 23.7778 19.7823 23.6176C19.3956 23.4574 18.9811 23.375 18.5625 23.375C17.7171 23.375 16.9064 23.7108 16.3086 24.3086C15.7108 24.9064 15.375 25.7171 15.375 26.5625C15.375 27.4079 15.7108 28.2186 16.3086 28.8164C16.9064 29.4142 17.7171 29.75 18.5625 29.75ZM27.0625 29.75C27.4811 29.75 27.8956 29.6676 28.2823 29.5074C28.669 29.3472 29.0204 29.1124 29.3164 28.8164C29.6124 28.5204 29.8472 28.169 30.0074 27.7823C30.1676 27.3956 30.25 26.9811 30.25 26.5625C30.25 26.1439 30.1676 25.7294 30.0074 25.3427C29.8472 24.956 29.6124 24.6046 29.3164 24.3086C29.0204 24.0126 28.669 23.7778 28.2823 23.6176C27.8956 23.4574 27.4811 23.375 27.0625 23.375C26.2171 23.375 25.4064 23.7108 24.8086 24.3086C24.2108 24.9064 23.875 25.7171 23.875 26.5625C23.875 27.4079 24.2108 28.2186 24.8086 28.8164C25.4064 29.4142 26.2171 29.75 27.0625 29.75Z"
+                            fill="#12263A" />
+                    </svg>
+
+                    <div class="nav__right-cart-icon ">
+                        <p class="nav__right-cart-icon-number"></p>
+                    </div>
+
+                    <div class="nav__left-burgerBox">
+                        <svg class="nav__account-burger jsBurger" xmlns="http://www.w3.org/2000/svg" width="42"
+                            height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+                            <line x1="3" y1="12" x2="21" y2="12"></line>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <line x1="3" y1="18" x2="21" y2="18"></line>
+                        </svg>
+
+                        <svg class="nav__account-btnclose jsCloseBurger" xmlns="http://www.w3.org/2000/svg" width="42"
+                            height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="feather feather-x">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nav__cart">
+
+        <div class="nav__empty">
+            <div class="nav__cart-head">
+                <p class="nav__cart-head-text">Twój koszyk</p>
+                <svg class="nav__cart-head-closebtn" width="28" height="28" viewBox="0 0 28 28" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M7.46683 22.1668L5.8335 20.5335L12.3668 14.0002L5.8335 7.46683L7.46683 5.8335L14.0002 12.3668L20.5335 5.8335L22.1668 7.46683L15.6335 14.0002L22.1668 20.5335L20.5335 22.1668L14.0002 15.6335L7.46683 22.1668Z"
+                        fill="#A4243B" />
+                </svg>
+            </div>
+
+            <div class="nav__cart-container">
+                <div class="nav__cart-container-boxes">
+
+
+                    <div class="nav__cart-container-boxes-empty-cart">
+
+                        <svg width="80" height="80" viewBox="0 0 118 118" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M117.438 111.438L6.56167 0.561523L0 7.12319L22.6817 29.8049L34.1 53.8815L27.125 66.5399C26.2983 67.9865 25.8333 69.6915 25.8333 71.4999C25.8333 74.2404 26.922 76.8687 28.8599 78.8066C30.7978 80.7445 33.4261 81.8332 36.1667 81.8332H74.71L81.84 88.9632C79.2567 90.8232 77.5 93.8715 77.5 97.3332C77.5 100.074 78.5887 102.702 80.5266 104.64C82.4644 106.578 85.0928 107.667 87.8333 107.667C91.295 107.667 94.3433 105.962 96.2033 103.327L110.877 118L117.438 111.438ZM38.3367 71.4999C37.9941 71.4999 37.6656 71.3638 37.4233 71.1215C37.1811 70.8793 37.045 70.5508 37.045 70.2082L37.2 69.5882L41.85 61.1665H54.0433L64.3767 71.4999H38.3367ZM80.3417 61.1665C84.2167 61.1665 87.6267 59.0482 89.3833 55.8449L107.88 22.4165C108.293 21.5899 108.5 20.7115 108.5 19.8332C108.5 18.4629 107.956 17.1487 106.987 16.1798C106.018 15.2109 104.704 14.6665 103.333 14.6665H33.79L80.3417 61.1665ZM36.1667 86.9999C33.4261 86.9999 30.7978 88.0885 28.8599 90.0264C26.922 91.9643 25.8333 94.5926 25.8333 97.3332C25.8333 100.074 26.922 102.702 28.8599 104.64C30.7978 106.578 33.4261 107.667 36.1667 107.667C38.9072 107.667 41.5356 106.578 43.4734 104.64C45.4113 102.702 46.5 100.074 46.5 97.3332C46.5 94.5926 45.4113 91.9643 43.4734 90.0264C41.5356 88.0885 38.9072 86.9999 36.1667 86.9999Z"
+                                fill="#FFAD66" />
+                        </svg>
+
+                        <p class="nav__cart-container-boxes-empty-cart-text">Koszyk jest pusty</p>
+
+                        <a title="Do sklepu" href="{% url 'home' %}"
+                            class="btn btn--primary nav__cart-container-footer-btn">Do sklepu
+                            <span class="btn__arrow">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 20L10.575 18.6L16.175 13H4V11H16.175L10.575 5.4L12 4L20 12L12 20Z"
+                                        fill="white" />
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+
+
+                    <!-- <div class="nav__cart-container-boxes-box">
+                        <img class="nav__cart-container-boxes-box-img" src="https://azarog.pythonanywhere.com/media/course_images/kreatywne-gotowanie-roslinne/zdjecie_3_orginal.jpg">
+                        <div class="nav__cart-container-boxes-box-content">
+                            <p class="nav__cart-container-boxes-box-content-title">Kurs gotowania Włoskiej Kuchni</p>
+                            <div>
+                                <div class="nav__cart-container-boxes-box-content-data">
+                                    <svg class="nav__cart-container-boxes-box-content-svgicon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                        <path d="M8.48734 9.654L9.304 8.82275L7.58317 7.10192V4.6665H6.4165V7.58317L8.48734 9.654ZM6.4165 3.49984H7.58317V2.33317H6.4165V3.49984ZM10.4998 7.58317H11.6665V6.4165H10.4998V7.58317ZM6.4165 11.6665H7.58317V10.4998H6.4165V11.6665ZM2.33317 7.58317H3.49984V6.4165H2.33317V7.58317ZM6.99984 12.8332C6.19289 12.8332 5.43456 12.6799 4.72484 12.3735C4.01512 12.0671 3.39775 11.6515 2.87275 11.1269C2.34775 10.6019 1.93223 9.98456 1.62617 9.27484C1.32012 8.56511 1.16689 7.80678 1.1665 6.99984C1.1665 6.19289 1.31973 5.43456 1.62617 4.72484C1.93262 4.01512 2.34814 3.39775 2.87275 2.87275C3.39775 2.34775 4.01512 1.93223 4.72484 1.62617C5.43456 1.32012 6.19289 1.16689 6.99984 1.1665C7.80678 1.1665 8.56511 1.31973 9.27484 1.62617C9.98456 1.93262 10.6019 2.34814 11.1269 2.87275C11.6519 3.39775 12.0676 4.01512 12.3741 4.72484C12.6805 5.43456 12.8336 6.19289 12.8332 6.99984C12.8332 7.80678 12.6799 8.56511 12.3735 9.27484C12.0671 9.98456 11.6515 10.6019 11.1269 11.1269C10.6019 11.6519 9.98456 12.0676 9.27484 12.3741C8.56511 12.6805 7.80678 12.8336 6.99984 12.8332Z" fill="#FF7700"/>
+                                        </svg>
+                                    <p>2023-12-16</p>
+                                </div>
+                                <div class="nav__cart-container-boxes-box-content-data">
+                                    <svg class="nav__cart-container-boxes-box-content-svgicon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                        <path d="M7.00016 6.99984C7.321 6.99984 7.59575 6.8855 7.82441 6.65684C8.05308 6.42817 8.16722 6.15361 8.16683 5.83317C8.16683 5.51234 8.0525 5.23759 7.82383 5.00892C7.59516 4.78025 7.32061 4.66611 7.00016 4.6665C6.67933 4.6665 6.40458 4.78084 6.17591 5.0095C5.94725 5.23817 5.83311 5.51273 5.8335 5.83317C5.8335 6.154 5.94783 6.42875 6.1765 6.65742C6.40516 6.88609 6.67972 7.00023 7.00016 6.99984ZM7.00016 12.8332C5.43488 11.5012 4.26588 10.2642 3.49316 9.122C2.72044 7.97984 2.33388 6.92245 2.3335 5.94984C2.3335 4.4915 2.80269 3.3297 3.74108 2.46442C4.67947 1.59914 5.76583 1.1665 7.00016 1.1665C8.23488 1.1665 9.32144 1.59914 10.2598 2.46442C11.1982 3.3297 11.6672 4.4915 11.6668 5.94984C11.6668 6.92206 11.2803 7.97945 10.5072 9.122C9.73405 10.2646 8.56505 11.5016 7.00016 12.8332Z" fill="#FF7700"/>
+                                        </svg>
+                                    <p>Warszawa</p>
+                                </div>
+                                <div class="nav__cart-container-boxes-box-content-data">
+                                    <svg class="nav__cart-container-boxes-box-content-svgicon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                        <path d="M7.00016 7.00016C6.3585 7.00016 5.80919 6.77169 5.35225 6.31475C4.8953 5.8578 4.66683 5.3085 4.66683 4.66683C4.66683 4.02516 4.8953 3.47586 5.35225 3.01891C5.80919 2.56197 6.3585 2.3335 7.00016 2.3335C7.64183 2.3335 8.19114 2.56197 8.64808 3.01891C9.10502 3.47586 9.3335 4.02516 9.3335 4.66683C9.3335 5.3085 9.10502 5.8578 8.64808 6.31475C8.19114 6.77169 7.64183 7.00016 7.00016 7.00016ZM2.3335 11.6668V10.0335C2.3335 9.70294 2.41866 9.39902 2.589 9.12175C2.75933 8.84447 2.98527 8.63311 3.26683 8.48766C3.86961 8.18627 4.48211 7.96013 5.10433 7.80925C5.72655 7.65836 6.3585 7.58311 7.00016 7.5835C7.64183 7.5835 8.27377 7.65894 8.896 7.80983C9.51822 7.96072 10.1307 8.18666 10.7335 8.48766C11.0154 8.6335 11.2416 8.84505 11.4119 9.12233C11.5822 9.39961 11.6672 9.70333 11.6668 10.0335V11.6668H2.3335Z" fill="#FF7700"/>
+                                        </svg>
+                                    <p>Jacek Kowalski</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav__cart-container-boxes-box-price">
+                            <p class="nav__cart-container-boxes-box-price-delete">Usuń produkt</p>
+                            <p class="nav__cart-container-boxes-box-price-sum">
+                                <span class="nav__cart-container-boxes-box-price-sum-item">299zł /</span><span> 1szt.</span>
+                            </p>
+                           
+
+
+                            <form method="POST" action="">
+                                <input name="_token" type="hidden" value="">
+                                <input name="_method" type="hidden" value="PUT">
+                                    <div class="nav__cart-container-boxes-box-price-form">
+                                        <div class="nav__cart-container-boxes-box-price-form-minus">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                            <path d="M14.25 9.74854H3.75V8.24854H14.25V9.74854Z" fill="#12263A"/>
+                                            </svg>
+                                        </div>
+                                        <input name="qty" type="text" value="1" data-current-value="1" class="nav__cart-container-boxes-box-price-form-input" aria-label="@lang('shop::global.items_qty')" data-hash="">
+                                        <div class="nav__cart-container-boxes-box-price-form-plus"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                            <path d="M14.25 9.74854H9.75V14.2485H8.25V9.74854H3.75V8.24854H8.25V3.74854H9.75V8.24854H14.25V9.74854Z" fill="#12263A"/>
+                                            </svg></div>
+                                    </div>
+                                </form>
+                        </div>
+                    </div>
+
+
+
+
+
+                    
+
+
+
+
+
+
+                    <div class="nav__cart-container-boxes-box">
+                        <img class="nav__cart-container-boxes-box-img" src="https://azarog.pythonanywhere.com/media/course_images/kreatywne-gotowanie-roslinne/zdjecie_3_orginal.jpg">
+                        <div class="nav__cart-container-boxes-box-content">
+                            <p class="nav__cart-container-boxes-box-content-title">Kurs gotowania Włoskiej Kuchni</p>
+                            <div>
+                                <div class="nav__cart-container-boxes-box-content-data">
+                                    <svg class="nav__cart-container-boxes-box-content-svgicon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                        <path d="M8.48734 9.654L9.304 8.82275L7.58317 7.10192V4.6665H6.4165V7.58317L8.48734 9.654ZM6.4165 3.49984H7.58317V2.33317H6.4165V3.49984ZM10.4998 7.58317H11.6665V6.4165H10.4998V7.58317ZM6.4165 11.6665H7.58317V10.4998H6.4165V11.6665ZM2.33317 7.58317H3.49984V6.4165H2.33317V7.58317ZM6.99984 12.8332C6.19289 12.8332 5.43456 12.6799 4.72484 12.3735C4.01512 12.0671 3.39775 11.6515 2.87275 11.1269C2.34775 10.6019 1.93223 9.98456 1.62617 9.27484C1.32012 8.56511 1.16689 7.80678 1.1665 6.99984C1.1665 6.19289 1.31973 5.43456 1.62617 4.72484C1.93262 4.01512 2.34814 3.39775 2.87275 2.87275C3.39775 2.34775 4.01512 1.93223 4.72484 1.62617C5.43456 1.32012 6.19289 1.16689 6.99984 1.1665C7.80678 1.1665 8.56511 1.31973 9.27484 1.62617C9.98456 1.93262 10.6019 2.34814 11.1269 2.87275C11.6519 3.39775 12.0676 4.01512 12.3741 4.72484C12.6805 5.43456 12.8336 6.19289 12.8332 6.99984C12.8332 7.80678 12.6799 8.56511 12.3735 9.27484C12.0671 9.98456 11.6515 10.6019 11.1269 11.1269C10.6019 11.6519 9.98456 12.0676 9.27484 12.3741C8.56511 12.6805 7.80678 12.8336 6.99984 12.8332Z" fill="#FF7700"/>
+                                        </svg>
+                                    <p>2023-11-24</p>
+                                </div>
+                                <div class="nav__cart-container-boxes-box-content-data">
+                                    <svg class="nav__cart-container-boxes-box-content-svgicon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                        <path d="M7.00016 6.99984C7.321 6.99984 7.59575 6.8855 7.82441 6.65684C8.05308 6.42817 8.16722 6.15361 8.16683 5.83317C8.16683 5.51234 8.0525 5.23759 7.82383 5.00892C7.59516 4.78025 7.32061 4.66611 7.00016 4.6665C6.67933 4.6665 6.40458 4.78084 6.17591 5.0095C5.94725 5.23817 5.83311 5.51273 5.8335 5.83317C5.8335 6.154 5.94783 6.42875 6.1765 6.65742C6.40516 6.88609 6.67972 7.00023 7.00016 6.99984ZM7.00016 12.8332C5.43488 11.5012 4.26588 10.2642 3.49316 9.122C2.72044 7.97984 2.33388 6.92245 2.3335 5.94984C2.3335 4.4915 2.80269 3.3297 3.74108 2.46442C4.67947 1.59914 5.76583 1.1665 7.00016 1.1665C8.23488 1.1665 9.32144 1.59914 10.2598 2.46442C11.1982 3.3297 11.6672 4.4915 11.6668 5.94984C11.6668 6.92206 11.2803 7.97945 10.5072 9.122C9.73405 10.2646 8.56505 11.5016 7.00016 12.8332Z" fill="#FF7700"/>
+                                        </svg>
+                                    <p>Poznań</p>
+                                </div>
+                                <div class="nav__cart-container-boxes-box-content-data">
+                                    <svg class="nav__cart-container-boxes-box-content-svgicon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                        <path d="M7.00016 7.00016C6.3585 7.00016 5.80919 6.77169 5.35225 6.31475C4.8953 5.8578 4.66683 5.3085 4.66683 4.66683C4.66683 4.02516 4.8953 3.47586 5.35225 3.01891C5.80919 2.56197 6.3585 2.3335 7.00016 2.3335C7.64183 2.3335 8.19114 2.56197 8.64808 3.01891C9.10502 3.47586 9.3335 4.02516 9.3335 4.66683C9.3335 5.3085 9.10502 5.8578 8.64808 6.31475C8.19114 6.77169 7.64183 7.00016 7.00016 7.00016ZM2.3335 11.6668V10.0335C2.3335 9.70294 2.41866 9.39902 2.589 9.12175C2.75933 8.84447 2.98527 8.63311 3.26683 8.48766C3.86961 8.18627 4.48211 7.96013 5.10433 7.80925C5.72655 7.65836 6.3585 7.58311 7.00016 7.5835C7.64183 7.5835 8.27377 7.65894 8.896 7.80983C9.51822 7.96072 10.1307 8.18666 10.7335 8.48766C11.0154 8.6335 11.2416 8.84505 11.4119 9.12233C11.5822 9.39961 11.6672 9.70333 11.6668 10.0335V11.6668H2.3335Z" fill="#FF7700"/>
+                                        </svg>
+                                    <p>Wiktor Marecki</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav__cart-container-boxes-box-price">
+                            <p class="nav__cart-container-boxes-box-price-delete">Usuń produkt</p>
+                            <p class="nav__cart-container-boxes-box-price-sum">
+                                <span class="nav__cart-container-boxes-box-price-sum-item">299zł /</span><span> 1szt.</span>
+                            </p>
+                           
+
+
+                            <form method="POST" action="">
+                                <input name="_token" type="hidden" value="">
+                                <input name="_method" type="hidden" value="PUT">
+                                    <div class="nav__cart-container-boxes-box-price-form">
+                                        <div class="nav__cart-container-boxes-box-price-form-minus">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                            <path d="M14.25 9.74854H3.75V8.24854H14.25V9.74854Z" fill="#12263A"/>
+                                            </svg>
+                                        </div>
+                                        <input class="nav__cart-container-boxes-box-price-form-input" name="" type="text" value="1" data-current-value="1" aria-label="" data-hash="">
+                                        <div class="nav__cart-container-boxes-box-price-form-plus"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                            <path d="M14.25 9.74854H9.75V14.2485H8.25V9.74854H3.75V8.24854H8.25V3.74854H9.75V8.24854H14.25V9.74854Z" fill="#12263A"/>
+                                            </svg></div>
+                                    </div>
+                                </form>
+                        </div>
+                    </div>
+
+
+
+
+
+
+  
+                    
+
+
+
+                    
+
+
+
+
+
+
+                    <div class="nav__cart-container-boxes-box">
+                        <img class="nav__cart-container-boxes-box-img" src="https://azarog.pythonanywhere.com/media/course_images/kreatywne-gotowanie-roslinne/zdjecie_3_orginal.jpg">
+                        <div class="nav__cart-container-boxes-box-content">
+                            <p class="nav__cart-container-boxes-box-content-title">Kurs gotowania Włoskiej Kuchni</p>
+                            <div>
+                                <div class="nav__cart-container-boxes-box-content-data">
+                                    <svg class="nav__cart-container-boxes-box-content-svgicon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                        <path d="M8.48734 9.654L9.304 8.82275L7.58317 7.10192V4.6665H6.4165V7.58317L8.48734 9.654ZM6.4165 3.49984H7.58317V2.33317H6.4165V3.49984ZM10.4998 7.58317H11.6665V6.4165H10.4998V7.58317ZM6.4165 11.6665H7.58317V10.4998H6.4165V11.6665ZM2.33317 7.58317H3.49984V6.4165H2.33317V7.58317ZM6.99984 12.8332C6.19289 12.8332 5.43456 12.6799 4.72484 12.3735C4.01512 12.0671 3.39775 11.6515 2.87275 11.1269C2.34775 10.6019 1.93223 9.98456 1.62617 9.27484C1.32012 8.56511 1.16689 7.80678 1.1665 6.99984C1.1665 6.19289 1.31973 5.43456 1.62617 4.72484C1.93262 4.01512 2.34814 3.39775 2.87275 2.87275C3.39775 2.34775 4.01512 1.93223 4.72484 1.62617C5.43456 1.32012 6.19289 1.16689 6.99984 1.1665C7.80678 1.1665 8.56511 1.31973 9.27484 1.62617C9.98456 1.93262 10.6019 2.34814 11.1269 2.87275C11.6519 3.39775 12.0676 4.01512 12.3741 4.72484C12.6805 5.43456 12.8336 6.19289 12.8332 6.99984C12.8332 7.80678 12.6799 8.56511 12.3735 9.27484C12.0671 9.98456 11.6515 10.6019 11.1269 11.1269C10.6019 11.6519 9.98456 12.0676 9.27484 12.3741C8.56511 12.6805 7.80678 12.8336 6.99984 12.8332Z" fill="#FF7700"/>
+                                        </svg>
+                                    <p>2023-11-24</p>
+                                </div>
+                                <div class="nav__cart-container-boxes-box-content-data">
+                                    <svg class="nav__cart-container-boxes-box-content-svgicon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                        <path d="M7.00016 6.99984C7.321 6.99984 7.59575 6.8855 7.82441 6.65684C8.05308 6.42817 8.16722 6.15361 8.16683 5.83317C8.16683 5.51234 8.0525 5.23759 7.82383 5.00892C7.59516 4.78025 7.32061 4.66611 7.00016 4.6665C6.67933 4.6665 6.40458 4.78084 6.17591 5.0095C5.94725 5.23817 5.83311 5.51273 5.8335 5.83317C5.8335 6.154 5.94783 6.42875 6.1765 6.65742C6.40516 6.88609 6.67972 7.00023 7.00016 6.99984ZM7.00016 12.8332C5.43488 11.5012 4.26588 10.2642 3.49316 9.122C2.72044 7.97984 2.33388 6.92245 2.3335 5.94984C2.3335 4.4915 2.80269 3.3297 3.74108 2.46442C4.67947 1.59914 5.76583 1.1665 7.00016 1.1665C8.23488 1.1665 9.32144 1.59914 10.2598 2.46442C11.1982 3.3297 11.6672 4.4915 11.6668 5.94984C11.6668 6.92206 11.2803 7.97945 10.5072 9.122C9.73405 10.2646 8.56505 11.5016 7.00016 12.8332Z" fill="#FF7700"/>
+                                        </svg>
+                                    <p>Poznań</p>
+                                </div>
+                                <div class="nav__cart-container-boxes-box-content-data">
+                                    <svg class="nav__cart-container-boxes-box-content-svgicon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                        <path d="M7.00016 7.00016C6.3585 7.00016 5.80919 6.77169 5.35225 6.31475C4.8953 5.8578 4.66683 5.3085 4.66683 4.66683C4.66683 4.02516 4.8953 3.47586 5.35225 3.01891C5.80919 2.56197 6.3585 2.3335 7.00016 2.3335C7.64183 2.3335 8.19114 2.56197 8.64808 3.01891C9.10502 3.47586 9.3335 4.02516 9.3335 4.66683C9.3335 5.3085 9.10502 5.8578 8.64808 6.31475C8.19114 6.77169 7.64183 7.00016 7.00016 7.00016ZM2.3335 11.6668V10.0335C2.3335 9.70294 2.41866 9.39902 2.589 9.12175C2.75933 8.84447 2.98527 8.63311 3.26683 8.48766C3.86961 8.18627 4.48211 7.96013 5.10433 7.80925C5.72655 7.65836 6.3585 7.58311 7.00016 7.5835C7.64183 7.5835 8.27377 7.65894 8.896 7.80983C9.51822 7.96072 10.1307 8.18666 10.7335 8.48766C11.0154 8.6335 11.2416 8.84505 11.4119 9.12233C11.5822 9.39961 11.6672 9.70333 11.6668 10.0335V11.6668H2.3335Z" fill="#FF7700"/>
+                                        </svg>
+                                    <p>Wiktor Marecki</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav__cart-container-boxes-box-price">
+                            <p class="nav__cart-container-boxes-box-price-delete">Usuń produkt</p>
+                            <p class="nav__cart-container-boxes-box-price-sum">
+                                <span class="nav__cart-container-boxes-box-price-sum-item">299zł /</span><span> 1szt.</span>
+                            </p>
+                           
+
+
+                            <form method="POST" action="">
+                                <input name="_token" type="hidden" value="">
+                                <input name="_method" type="hidden" value="PUT">
+                                    <div class="nav__cart-container-boxes-box-price-form">
+                                        <div class="nav__cart-container-boxes-box-price-form-minus">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                            <path d="M14.25 9.74854H3.75V8.24854H14.25V9.74854Z" fill="#12263A"/>
+                                            </svg>
+                                        </div>
+                                        <input class="nav__cart-container-boxes-box-price-form-input" name="" type="text" value="1" data-current-value="1" aria-label="" data-hash="">
+                                        <div class="nav__cart-container-boxes-box-price-form-plus"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                            <path d="M14.25 9.74854H9.75V14.2485H8.25V9.74854H3.75V8.24854H8.25V3.74854H9.75V8.24854H14.25V9.74854Z" fill="#12263A"/>
+                                            </svg></div>
+                                    </div>
+                                </form>
+                        </div>
+                    </div>
+                    -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <div class="nav__cart-container-footer">
+            <div class="nav__cart-container-footer-line"></div>
+            <div class="nav__cart-container-footer-sum">
+                <p class="nav__cart-container-footer-sum-text">Wartość koszyka</p>
+                <p class="nav__cart-container-footer-sum-text-price"><span>889</span> zł</p>
+            </div>
+            <a title="Poznaj oferte" href="#" class="btn btn--primary nav__cart-container-footer-btn">Do kasy
+                <span class="btn__arrow">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 20L10.575 18.6L16.175 13H4V11H16.175L10.575 5.4L12 4L20 12L12 20Z" fill="white" />
+                    </svg>
+                </span>
+            </a>
+        </div> -->
+
+    </div>
+    <div class="overlay"></div>
+
+
+    <div class="mobile-menu">
+
+        <div class="mobile-menu__first">
+            <div class="mobile-menu__first-box1">
+                <div class="mobile-menu__first-item jsTrainingsBTN">
+                    <div class="mobile-menu__first-txt ">
+                        <p>Szkolenia</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                            stroke="#12263a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-chevron-right">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </div>
+                </div>
+                <a href="/newest" class="mobile-menu__first-item">
+                    <div class="mobile-menu__first-txt">
+                        Nowości
+                    </div>
+                </a>
+                <a href="/blog" class="mobile-menu__first-item">
+                    <div class="mobile-menu__first-txt">
+                        Blog
+                    </div>
+                </a>
+                <a href="/gallery" class="mobile-menu__first-item">
+                    <div class="mobile-menu__first-txt">
+                        Galeria
+                    </div>
+                </a>
+                <a href="/about-us" class="mobile-menu__first-item">
+                    <div class="mobile-menu__first-txt">
+                        O nas
+                    </div>
+                </a>
+                <a href="/faq" class="mobile-menu__first-item">
+                    <div class="mobile-menu__first-txt">
+                        Pytania
+                    </div>
+                </a>
+                <a href="/contact" class="mobile-menu__first-item">
+                    <div class="mobile-menu__first-txt">
+                        Kontakt
+                    </div>
+                </a>
+            </div>
+            <div class="mobile-menu__first-box2">
+
+
+            </div>
+        </div>
+
+        <div class="mobile-menu__second jsShowTrainingsSubmenu">
+
+            <div class="mobile-menu__second-backBTN">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="#1d1d1d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-arrow-left-circle">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 8 8 12 12 16"></polyline>
+                    <line x1="16" y1="12" x2="8" y2="12"></line>
+                </svg>
+                <p>POWRÓT</p>
+            </div>
+
+            <div class="mobile-menu__second-item-box">
+
+                <a href="#" class="mobile-menu__second-item">
+                    <div class="mobile-menu__second-menu">
+                        Dolnośąskie
+                    </div>
+                </a>
+                <a href="#" class="mobile-menu__second-item">
+                    <div class="mobile-menu__second-menu">
+                        Kojawsko-Pomorskie
+                    </div>
+                </a>
+                <a href="#" class="mobile-menu__second-item">
+                    <div class="mobile-menu__second-menu">
+                        Lubelskie
+                    </div>
+                </a>
+                <a href="#" class="mobile-menu__second-item">
+                    <div class="mobile-menu__second-menu">
+                        Lubuskie
+                    </div>
+                </a>
+                <a href="#" class="mobile-menu__second-item">
+                    <div class="mobile-menu__second-menu">
+                        Łódzkie
+                    </div>
+                </a>
+                <a href="#" class="mobile-menu__second-item">
+                    <div class="mobile-menu__second-menu">
+                        Małopolskie
+                    </div>
+                </a>
+                <a href="#" class="mobile-menu__second-item">
+                    <div class="mobile-menu__second-menu">
+                        Mazowieckie
+                    </div>
+                </a>
+                <a href="#" class="mobile-menu__second-item">
+                    <div class="mobile-menu__second-menu">
+                        Opolskie
+                    </div>
+                </a>
+                <a href="#" class="mobile-menu__second-item">
+                    <div class="mobile-menu__second-menu">
+                        Podkarpackie
+                    </div>
+                </a>
+                <a href="#" class="mobile-menu__second-item">
+                    <div class="mobile-menu__second-menu">
+                        Podlaskie
+                    </div>
+                </a>
+                <a href="#" class="mobile-menu__second-item">
+                    <div class="mobile-menu__second-menu">
+                        Pomorskie
+                    </div>
+                </a>
+                <a href="#" class="mobile-menu__second-item">
+                    <div class="mobile-menu__second-menu">
+                        Śląskie
+                    </div>
+                </a>
+                <a href="#" class="mobile-menu__second-item">
+                    <div class="mobile-menu__second-menu">
+                        Świętokrzyskie
+                    </div>
+                </a>
+                <a href="#" class="mobile-menu__second-item">
+                    <div class="mobile-menu__second-menu">
+                        Warmińsko-mazurskie
+                    </div>
+                </a>
+                <a href="#" class="mobile-menu__second-item">
+                    <div class="mobile-menu__second-menu">
+                        Wielkopolskie
+                    </div>
+                </a>
+                <a href="#" class="mobile-menu__second-item">
+                    <div class="mobile-menu__second-menu">
+                        Zachodniopomorskie
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</nav>
+   <main>
+
+      <section class="container">
+
+         <div class="transaction-success">
+            
+            <svg class="transaction-success__404" width="660" height="282" viewBox="0 0 660 282" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <g clip-path="url(#clip0_566_2820)">
+               <g clip-path="url(#clip1_566_2820)">
+               <path d="M330.5 266.77C400.237 266.77 456.77 210.237 456.77 140.5C456.77 70.763 400.237 14.23 330.5 14.23C260.763 14.23 204.23 70.763 204.23 140.5C204.23 210.237 260.763 266.77 330.5 266.77Z" fill="#A4243B"/>
+               <circle cx="327" cy="141" r="90" fill="#FAFAFA"/>
+               <path d="M267.594 266.172L277.658 200.822L303.309 266.172H341.177L299.514 155.894L240.927 157.412L234.273 266.172H267.594Z" fill="#8B865C"/>
+               <path d="M253.007 147.073C254.058 156.822 254.645 168.31 254.054 181.142C253.273 198.108 250.65 212.702 247.771 224.298C254.518 227.808 265.392 233.504 279.189 232.815C305.717 231.49 311.15 223.919 331.431 223.162C326.839 210.85 319.155 189.501 310.608 174.896C305.92 166.885 301.135 159.705 296.469 153.319C281.982 151.237 267.494 149.155 253.007 147.073Z" fill="#776E42"/>
+               <path d="M264.428 201.758C264.426 201.758 264.424 201.758 264.422 201.758C264.254 201.755 264.12 201.616 264.123 201.449L264.507 177.618L264.861 177.684C272.257 179.054 279.817 179.753 287.33 179.761C294.201 179.768 301.128 179.196 307.911 178.062C308.076 178.034 308.233 178.146 308.261 178.311C308.289 178.477 308.177 178.634 308.011 178.662C301.195 179.802 294.247 180.381 287.329 180.369C279.899 180.362 272.423 179.682 265.104 178.347L264.732 201.459C264.729 201.625 264.593 201.758 264.428 201.758Z" fill="#363E44"/>
+               <path d="M253.205 91.9429C240.653 94.4358 209.331 98.9857 210.538 114.474C212.359 137.848 245.64 127.205 258.265 125.537C257.255 116.383 254.215 101.098 253.205 91.9429Z" fill="white"/>
+               <path d="M334.206 109.6C357.386 123.555 369.392 135.756 363.196 143.953C356.619 152.656 341.947 147.09 323.012 134.864C326.245 126.949 330.082 119.09 334.206 109.6Z" fill="white"/>
+               <path d="M337.25 111.44C329.35 106.7 311.495 94.6916 292.376 91.2155C272.926 87.6791 259.267 90.6142 249.399 92.6376C253.507 113.968 253.383 117.579 251.927 125.345C250.031 135.457 244.244 142.421 238.023 151.573C235.156 155.791 232.019 162.95 235.811 165.162C240.73 168.032 251.358 158.553 277.84 160.738C292.12 161.916 300.167 165.75 306.281 161.686C315.012 155.881 312.825 147.06 323.345 134.193C328.603 127.763 331.386 112.721 337.25 111.44Z" fill="white"/>
+               <path d="M252.637 123.865C252.609 123.865 252.58 123.861 252.552 123.853C252.39 123.805 252.298 123.636 252.345 123.475L257.537 105.839C257.585 105.678 257.754 105.586 257.915 105.633C258.076 105.68 258.168 105.849 258.121 106.011L252.929 123.647C252.89 123.779 252.769 123.865 252.637 123.865Z" fill="#363E44"/>
+               <path d="M283.864 161.864C283.805 161.864 283.745 161.847 283.692 161.811C283.554 161.716 283.519 161.526 283.614 161.388C288.254 154.641 294.427 144.324 298.976 135.716C302.903 128.285 306.462 120.556 309.557 112.738C306.378 112.025 303.358 110.837 300.575 109.205C298.756 108.137 297.037 106.877 295.466 105.458C295.342 105.345 295.332 105.153 295.444 105.028C295.557 104.904 295.749 104.893 295.874 105.006C297.414 106.397 299.099 107.633 300.883 108.68C303.712 110.339 306.791 111.53 310.035 112.22L310.386 112.295L310.254 112.629C307.121 120.581 303.508 128.444 299.515 136.001C294.956 144.628 288.767 154.969 284.116 161.733C284.056 161.818 283.961 161.864 283.864 161.864Z" fill="#363E44"/>
+               <path d="M322.401 135.442C322.349 135.442 322.297 135.429 322.249 135.401C322.104 135.317 322.053 135.132 322.137 134.986L331.295 119.044C331.378 118.899 331.564 118.848 331.71 118.932C331.856 119.016 331.906 119.202 331.822 119.348L322.665 135.289C322.609 135.387 322.506 135.442 322.401 135.442Z" fill="#363E44"/>
+               <path d="M337.145 141.275C337.035 141.275 336.929 141.216 336.875 141.112C335.162 137.823 334.52 134.888 334.966 132.388C335.463 129.605 337.348 127.442 340.417 126.134C340.572 126.068 340.75 126.14 340.816 126.295C340.882 126.449 340.81 126.628 340.656 126.694C337.743 127.935 336.031 129.887 335.565 132.495C335.143 134.86 335.766 137.664 337.415 140.831C337.492 140.98 337.434 141.163 337.285 141.241C337.241 141.264 337.192 141.275 337.145 141.275Z" fill="#363E44"/>
+               <path d="M236.588 107.307C236.502 107.307 236.416 107.271 236.356 107.2C235.252 105.896 233.339 104.118 230.489 103.052C226.572 101.587 223.039 102.266 221.282 102.8C221.121 102.849 220.951 102.759 220.902 102.598C220.853 102.437 220.944 102.267 221.104 102.218C222.935 101.661 226.617 100.954 230.702 102.482C233.675 103.594 235.67 105.448 236.82 106.806C236.929 106.935 236.913 107.127 236.785 107.235C236.727 107.284 236.658 107.307 236.588 107.307Z" fill="#363E44"/>
+               <path d="M339.619 129.484C339.665 124.616 358.136 95.9185 360.873 91.2988C361.159 90.815 361.661 89.9588 362.591 89.0644C366.035 85.7504 369.831 87.2221 375.042 85.3901C380.956 83.3112 383.109 78.7927 384.488 79.6055C385.447 80.171 385.115 82.1041 383.057 85.4793C383.057 85.4796 383.057 85.48 383.057 85.4797C384.916 83.0951 387.578 79.9712 388.893 81.0021C390.347 82.2737 387.651 86.3113 385.9 88.674C388.019 85.8141 390.002 84.9272 390.591 85.6848C391.52 86.8773 390.393 89.4776 387.446 93.1487L387.446 93.149C390.189 91.1826 391.148 91.1143 391.506 91.911C392.16 93.3656 389.68 96.3383 387.085 98.63C384.164 101.21 381.003 102.198 378.995 102.773C378.995 102.773 378.994 102.773 378.994 102.774C371.975 118.523 369.292 126.322 363.297 138.894C359.664 146.513 339.539 138.103 339.619 129.484Z" fill="#E2A18D"/>
+               <path d="M370.654 88.1855C373.4 82.624 373.211 80.0361 372.316 79.6291C370.81 78.9447 366.523 82.7333 361.486 90.356C364.095 89.9804 368.046 88.5613 370.654 88.1855Z" fill="#E2A18D"/>
+               <path d="M369.954 98.7979C369.909 98.7979 369.863 98.788 369.82 98.7667C369.67 98.6925 369.608 98.5102 369.682 98.3593C370.186 97.3336 371.156 95.8952 372.907 94.8674C375.385 93.4133 377.888 93.7253 378.848 93.9269C379.012 93.9614 379.117 94.1227 379.083 94.2872C379.048 94.4519 378.887 94.5573 378.723 94.5224C377.83 94.3353 375.509 94.0456 373.215 95.3921C371.594 96.3436 370.695 97.6769 370.228 98.6279C370.175 98.7355 370.067 98.7979 369.954 98.7979Z" fill="#363E44"/>
+               <path d="M365.355 87.8339C365.231 87.8339 365.115 87.7576 365.07 87.6345C365.012 87.4769 365.092 87.302 365.25 87.2439C366.556 86.7634 367.938 86.6062 369.402 86.44C370.08 86.3628 370.782 86.2831 371.511 86.168C371.677 86.1412 371.833 86.2552 371.859 86.4212C371.885 86.5871 371.772 86.743 371.606 86.7691C370.864 86.8862 370.156 86.9667 369.471 87.0447C368.044 87.2067 366.697 87.3599 365.46 87.8151C365.426 87.8278 365.39 87.8339 365.355 87.8339Z" fill="#363E44"/>
+               <path d="M378.351 88.9006C378.23 88.9006 378.116 88.8278 378.068 88.7086C378.007 88.5524 378.083 88.3755 378.239 88.3134C378.923 88.0412 379.585 87.7047 380.205 87.313C381.106 86.7445 381.929 86.0553 382.652 85.2645C382.765 85.1403 382.958 85.1319 383.082 85.2454C383.206 85.3586 383.214 85.5512 383.101 85.6752C382.342 86.506 381.477 87.2301 380.53 87.8276C379.878 88.2391 379.183 88.5928 378.464 88.8788C378.427 88.8935 378.389 88.9006 378.351 88.9006Z" fill="#363E44"/>
+               <path d="M381.456 91.7147C381.335 91.7147 381.22 91.642 381.173 91.5226C381.111 91.3664 381.187 91.1895 381.343 91.1275C382.028 90.8556 382.689 90.519 383.31 90.1274C384.21 89.5588 385.033 88.8697 385.756 88.0789C385.87 87.9547 386.063 87.9464 386.186 88.0597C386.31 88.173 386.319 88.3656 386.206 88.4896C385.446 89.3202 384.581 90.0445 383.635 90.642C382.982 91.0538 382.287 91.4075 381.568 91.693C381.531 91.7078 381.493 91.7147 381.456 91.7147Z" fill="#363E44"/>
+               <path d="M382.837 96.6217C382.716 96.6217 382.601 96.5489 382.554 96.4296C382.492 96.2733 382.568 96.0964 382.724 96.0345C383.409 95.7625 384.07 95.4259 384.69 95.0342C385.592 94.4654 386.415 93.7761 387.137 92.9858C387.251 92.8614 387.443 92.8532 387.567 92.9666C387.691 93.0799 387.7 93.2724 387.587 93.3965C386.827 94.2269 385.962 94.951 385.015 95.5488C384.364 95.9605 383.668 96.3141 382.949 96.6C382.912 96.6148 382.874 96.6217 382.837 96.6217Z" fill="#363E44"/>
+               <path d="M228.188 129.274C250.501 134.273 257.061 134.208 267.926 136.222C273.629 137.28 279.135 139.427 284.25 137.204C286.518 136.219 288.775 134.688 287.884 133.098C286.493 130.615 279.89 133.559 278.812 131.504C277.728 129.44 283.345 124.797 285.871 125.874C287.91 126.744 285.449 131.478 288.034 131.944C289.802 132.262 290.992 129.477 291.453 127.446C291.6 126.801 292.214 124.096 290.369 121.786C288.418 119.342 285.397 119.448 285.09 119.464C287.09 116.829 293.096 109.115 291.351 107.565C289.186 105.642 281.956 114.196 280.16 116.237C280.335 115.946 285.951 105.547 284.201 104.076C281.464 101.777 277.629 109.623 274.58 113.247C275.159 111.181 277.414 104.046 275.929 103.16C273.381 101.64 270.422 110.585 266.997 115.417C261.96 114.283 245.064 108.003 232.522 106.361C215.573 104.143 211.368 125.507 228.188 129.274Z" fill="#E2A18D"/>
+               <path d="M263.887 127.733C263.579 127.733 263.309 127.718 263.086 127.698C262.918 127.683 262.795 127.536 262.81 127.368C262.825 127.201 262.972 127.08 263.14 127.092C264.115 127.18 266.047 127.166 268.034 126.092C270.269 124.885 271.362 123.021 271.814 122.017C271.883 121.864 272.064 121.796 272.217 121.865C272.37 121.934 272.438 122.114 272.369 122.267C271.885 123.341 270.715 125.335 268.324 126.627C266.651 127.531 265.016 127.733 263.887 127.733Z" fill="#363E44"/>
+               <path d="M290.249 87.6997C294.393 88.5817 300.479 91.5665 300.395 95.341C300.311 99.1379 294.012 102.411 288.746 102.356C281.588 102.281 274.479 96.0385 275.342 92.0839C276.159 88.3428 284.164 86.4046 290.249 87.6997Z" fill="#D87355"/>
+               <path d="M299.384 101.836C299.844 100.474 299.114 98.9977 297.753 98.5374C296.391 98.0772 294.915 98.8076 294.455 100.169C293.994 101.53 294.725 103.007 296.086 103.467C297.447 103.927 298.924 103.197 299.384 101.836Z" fill="#D87355"/>
+               <path d="M296.398 100.769C295.662 101.791 294.796 103.239 294.202 105.103C292.337 110.959 294.269 117.444 295.508 117.462C296.606 117.478 297.808 112.423 297.789 108.274C297.774 105.093 297.041 102.497 296.398 100.769Z" fill="#D87355"/>
+               <path d="M296.835 101.752C298.061 100.646 299.807 99.3186 302.084 98.3231C309.235 95.1956 317.368 97.1956 317.456 98.8875C317.534 100.387 311.339 102.53 306.202 102.913C302.262 103.207 299.009 102.461 296.835 101.752Z" fill="#D87355"/>
+               <path d="M297.221 58.6418C297.804 58.6721 303.388 59.0452 306.147 63.3137C308.199 66.4898 307.958 70.1364 306.627 76.1917C305.061 83.3224 303.128 87.3661 300.842 88.4781C297.229 90.235 288.162 83.7422 285.411 76.9003C283.424 71.9616 284.602 66.1593 288.091 62.0889C291.569 58.0297 296.849 58.6227 297.221 58.6418Z" fill="#E2A18D"/>
+               <path d="M287.783 98.9684C291.827 99.5728 295.596 96.7844 296.2 92.7402L299.166 72.9051C299.77 68.8611 296.982 65.0925 292.938 64.4881C288.894 63.8837 285.125 66.6721 284.521 70.7163L281.555 90.5513C280.95 94.5954 283.739 98.3639 287.783 98.9684Z" fill="#E2A18D"/>
+               <path d="M296.88 88.6329C296.847 88.6329 296.813 88.6274 296.78 88.616C294.748 87.9125 291.63 85.8318 289.682 83.879C289.563 83.7602 289.563 83.5674 289.682 83.4487C289.801 83.33 289.994 83.3303 290.112 83.4493C291.973 85.3146 295.054 87.3745 296.979 88.0411C297.138 88.096 297.222 88.2693 297.167 88.428C297.124 88.5539 297.006 88.6329 296.88 88.6329Z" fill="#363E44"/>
+               <path d="M300.037 65.9089C300.738 65.0646 307.653 66.139 309.531 69.7229C310.223 71.0444 309.589 72.2232 310.747 73.1423C311.583 73.8048 312.62 72.7963 313.785 73.2622C314.784 73.6618 314.54 74.8721 315.423 75.6201C316.107 76.1994 316.942 76.0597 318.474 75.7216C316.582 79.4566 314.824 79.6564 313.945 79.3767C313.163 79.1282 313.305 77.4185 312.306 76.9788C311.144 76.4674 309.868 77.9379 308.549 77.1386C306.263 75.7531 306.174 72.759 304.873 70.9842C303.114 68.5865 299.613 66.42 300.037 65.9089Z" fill="#363E44"/>
+               <path d="M307.112 72.9888C307.097 73.0249 307.112 73.0618 307.097 73.0981C307.096 73.0996 307.095 73.1005 307.094 73.1021C307.051 73.6505 307.006 74.2293 307.063 74.7763C307.089 75.0185 307.2 75.1828 307.25 75.4085C307.287 75.5739 307.321 75.7325 307.364 75.8939C308.951 74.9958 309.863 73.5317 309.863 73.5317C309.863 73.5317 308.626 73.0102 307.112 72.9888Z" fill="white"/>
+               <path d="M305.329 73.2379C303.287 73.877 302.01 75.7026 301.804 76.0139C301.817 76.0408 301.831 76.0673 301.845 76.0938C302.241 76.2496 304.297 76.9864 306.305 76.3577C306.682 76.2398 307.03 76.0793 307.353 75.8973C307.413 75.7601 307.467 75.619 307.507 75.4702C307.746 74.5903 307.573 73.6979 307.109 72.991C306.542 72.9857 305.934 73.0486 305.329 73.2379Z" fill="#363E44"/>
+               <path d="M296.211 73.847C296.029 74.4715 296.008 74.9768 296.216 75.5642C297.733 75.8795 299.065 75.6107 299.065 75.6107C299.065 75.6107 298.349 73.7047 296.744 72.4873C296.463 72.8752 296.339 73.4038 296.211 73.847Z" fill="white"/>
+               <path d="M296.184 75.5566C296.903 74.7265 297.135 73.5516 296.741 72.4901C296.56 72.3547 296.371 72.2254 296.167 72.1107C294.124 70.9652 291.669 71.4623 291.669 71.4623C291.669 71.4623 292.525 73.8166 294.567 74.962C295.095 75.2581 295.65 75.443 296.184 75.5566Z" fill="#363E44"/>
+               <path d="M302.051 80.0482C301.948 80.0482 301.847 79.9961 301.79 79.9015C301.703 79.7579 301.749 79.5706 301.893 79.4837C302.301 79.2361 302.527 78.9787 302.545 78.739C302.561 78.5268 302.413 78.3344 302.269 78.1487C302.235 78.104 302.202 78.061 302.172 78.0192C301.805 77.5103 301.638 76.8368 301.674 76.0174C301.681 75.8496 301.827 75.7207 301.991 75.7268C302.159 75.7342 302.289 75.8762 302.282 76.0442C302.252 76.7234 302.381 77.2684 302.666 77.6637C302.692 77.7002 302.721 77.7377 302.751 77.7766C302.935 78.0145 303.186 78.3401 303.152 78.7855C303.118 79.2356 302.8 79.6456 302.208 80.0042C302.159 80.0342 302.104 80.0482 302.051 80.0482Z" fill="#363E44"/>
+               <path d="M295.76 66.2688C294.985 66.5107 292.573 67.3721 290.805 69.8658C289.119 72.2438 290.115 75.0209 290.355 75.8602C289.962 75.8602 288.41 75.5306 288.017 75.5306C288.092 72.3085 288.227 71.7541 287.203 70.73C285.927 69.4541 284.11 69.734 283.871 69.766C284.061 68.9513 284.639 67.0121 286.409 65.7094C288.886 63.8861 292.68 64.0579 295.76 66.2688Z" fill="#363E44"/>
+               <path d="M299.816 83.9799C299.282 83.9799 298.785 83.8406 298.372 83.5737C297.576 83.059 297.182 82.1446 297.157 81.6601C297.142 81.3761 297.246 81.2306 297.335 81.1587C297.597 80.9473 297.879 81.1361 298.177 81.3367C298.466 81.5312 298.862 81.7978 299.432 81.9638C299.974 82.1216 300.559 82.1527 301.172 82.0563C301.336 82.0295 301.494 82.1435 301.52 82.3096C301.546 82.4757 301.432 82.6313 301.266 82.6574C300.565 82.7678 299.89 82.731 299.262 82.5481C298.601 82.3556 298.141 82.0462 297.837 81.8417C297.824 81.8329 297.81 81.8239 297.797 81.8146C297.888 82.1508 298.168 82.717 298.703 83.0628C299.138 83.3445 299.615 83.3849 299.939 83.3685C300.11 83.36 300.25 83.4897 300.258 83.6575C300.266 83.8253 300.137 83.9681 299.969 83.9764C299.918 83.9786 299.867 83.9799 299.816 83.9799Z" fill="#363E44"/>
+               <path d="M282.436 70.2173C284.137 69.1249 287.493 69.5506 287.913 72.0759L287.978 77.9345C287.854 78.0419 287.725 78.1435 287.584 78.2337C285.713 79.4357 283.044 78.6153 281.622 76.4016C280.2 74.1878 280.565 71.419 282.436 70.2173Z" fill="#E2A18D"/>
+               <path d="M283.363 75.676C283.28 75.676 283.198 75.6428 283.138 75.5773C283.004 75.4305 282.88 75.2702 282.772 75.1009C282.341 74.4301 282.157 73.6548 282.254 72.9178C282.353 72.1617 282.734 71.5357 283.327 71.1552C283.628 70.9619 283.964 70.8442 284.326 70.8055C284.493 70.7873 284.643 70.9085 284.661 71.0756C284.679 71.2427 284.558 71.3926 284.391 71.4105C284.124 71.4392 283.877 71.5255 283.656 71.6672C283.217 71.9493 282.933 72.4216 282.857 72.9972C282.779 73.592 282.93 74.2223 283.284 74.7722C283.374 74.9124 283.476 75.0452 283.587 75.1663C283.7 75.2902 283.692 75.4826 283.568 75.5963C283.51 75.6495 283.436 75.676 283.363 75.676Z" fill="#363E44"/>
+               <path d="M284.839 45.5625C285.901 41.0041 290.457 38.1698 295.016 39.2319C295.249 39.2864 295.477 39.3522 295.701 39.4245C297.679 36.9663 300.955 35.7151 304.233 36.4788C307.511 37.2426 309.898 39.8133 310.585 42.8923C310.818 42.9266 311.051 42.9682 311.285 43.0226C315.844 44.0848 318.678 48.641 317.616 53.1993C316.807 56.6715 313.97 59.1411 310.649 59.6524L308.789 68.6665L285.344 66.8411L288.236 54.4302C285.483 52.5039 284.03 49.0347 284.839 45.5625Z" fill="white"/>
+               <path d="M308.295 59.9884C308.282 59.9884 308.269 59.9877 308.255 59.9859C307.96 59.9481 307.662 59.8944 307.37 59.8264C304.384 59.1303 302.016 56.9776 301.037 54.0675C300.984 53.9082 301.07 53.7356 301.229 53.6821C301.389 53.6282 301.561 53.7143 301.614 53.8735C302.525 56.5821 304.729 58.586 307.508 59.2337C307.781 59.2971 308.058 59.3472 308.333 59.3826C308.5 59.4039 308.618 59.5564 308.596 59.723C308.576 59.8765 308.445 59.9884 308.295 59.9884Z" fill="#363E44"/>
+               <path d="M423.442 62.814C423.442 69.9541 411.848 93.9871 378.405 93.9871C343.177 93.9871 333.367 69.9541 333.367 62.814C333.367 55.674 353.531 49.8857 378.405 49.8857C403.278 49.8857 423.442 55.6739 423.442 62.814Z" fill="white"/>
+               <path d="M378.405 75.7422C403.278 75.7422 423.442 69.9541 423.442 62.814C423.442 55.6739 403.278 49.8857 378.405 49.8857C353.531 49.8857 333.367 55.6739 333.367 62.814C333.367 69.9541 353.531 75.7422 378.405 75.7422Z" fill="#D87355"/>
+               <path d="M418.996 62.8142C418.996 69.2494 400.822 74.4661 378.405 74.4661C355.987 74.4661 337.813 69.2494 337.813 62.8142C337.813 56.379 363.772 40.5166 378.405 40.5166C394.648 40.5165 418.996 56.379 418.996 62.8142Z" fill="#E6D0BE"/>
+               <path d="M378.405 80.1762C358.494 80.1762 341.125 76.4932 335.186 71.0117C335.062 70.8977 335.055 70.7052 335.169 70.5817C335.282 70.4582 335.475 70.4507 335.599 70.5645C341.342 75.8653 358.945 79.5676 378.405 79.5676C397.279 79.5676 414.236 76.1594 420.601 71.0868C420.732 70.982 420.923 71.0038 421.028 71.1351C421.133 71.2666 421.111 71.4579 420.98 71.5626C414.516 76.7147 397.406 80.1762 378.405 80.1762Z" fill="#FFD092"/>
+               <path d="M382.732 37.0876C387.276 35.4792 392.7 39.0901 392.7 39.0901C392.7 39.0901 390.757 45.3089 386.214 46.9173C381.67 48.5257 376.246 44.9148 376.246 44.9148C376.246 44.9148 378.189 38.696 382.732 37.0876Z" fill="#8B865C"/>
+               <path d="M374.885 46.4229C374.8 46.4229 374.716 46.3873 374.655 46.3179C374.545 46.1909 374.559 45.9987 374.686 45.8887C376.222 44.5582 377.903 43.3954 379.682 42.4325C382.604 40.8513 385.768 39.8083 389.085 39.3319C389.254 39.3073 389.405 39.4235 389.43 39.5898C389.453 39.7562 389.338 39.9102 389.172 39.9343C385.925 40.4003 382.83 41.4209 379.972 42.9676C378.231 43.9098 376.587 45.0473 375.084 46.3488C375.027 46.3985 374.956 46.4229 374.885 46.4229Z" fill="#363E44"/>
+               <path d="M372.999 73.6062C369.845 69.9626 371.231 63.5966 371.231 63.5966C371.231 63.5966 377.732 63.1383 380.886 66.782C384.04 70.4256 382.654 76.7915 382.654 76.7915C382.654 76.7915 376.154 77.2498 372.999 73.6062Z" fill="#9E9569"/>
+               <path d="M384.271 77.9231C384.224 77.9231 384.175 77.9119 384.13 77.8882C382.331 76.9431 380.635 75.8022 379.09 74.497C376.551 72.353 374.427 69.7881 372.774 66.8733C372.691 66.7271 372.743 66.5414 372.889 66.4585C373.034 66.3758 373.22 66.427 373.304 66.5731C374.92 69.4252 376.999 71.9347 379.482 74.0319C380.994 75.3088 382.653 76.4248 384.413 77.3494C384.562 77.4275 384.619 77.6115 384.541 77.7602C384.486 77.864 384.381 77.9231 384.271 77.9231Z" fill="#363E44"/>
+               <path d="M409.293 53.6687C411.059 50.8051 408.889 46.2615 404.445 43.5203C400.001 40.7791 394.967 40.8783 393.2 43.7418C391.434 46.6054 393.604 51.1489 398.048 53.8902C402.492 56.6314 407.527 56.5322 409.293 53.6687Z" fill="#363E44"/>
+               <path d="M395.495 43.7874C395.525 43.5136 397.96 43.2086 400.418 43.8499C405.513 45.1795 408.349 49.9616 408.14 50.1746C407.97 50.3464 405.907 47.4637 401.446 45.5574C398.172 44.1583 395.463 44.0787 395.495 43.7874Z" fill="white"/>
+               <path d="M375.35 35.2665C375.279 33.7395 374.175 32.4562 372.673 32.1701C370.406 31.7383 367.166 31.8 363.79 34.0555C357.878 38.0058 358.362 48.344 363.706 53.6439C367.572 57.4771 373.222 56.4965 375.838 56.0426C377.028 55.836 378.333 55.5464 379.688 55.1698C381.45 54.6803 382.615 53.1613 382.763 51.478C382.854 50.4466 382.317 49.4468 381.419 48.9322C376.928 46.3612 375.626 41.2261 375.35 35.2665Z" fill="#D87355"/>
+               <path d="M372.657 36.0529C371.324 34.6258 368.085 35.1483 366.103 36.4627C362.862 38.6126 362.464 43.2285 363.239 46.2988C364.133 49.8432 366.917 52.6209 370.219 53.6406C374.999 55.1167 379.545 52.8382 379.622 51.0322C379.706 49.0765 374.812 49.325 373.1 45.0038C371.658 41.3641 374.379 37.897 372.657 36.0529Z" fill="#E2A18D"/>
+               <path d="M370.17 38.8105C370.732 39.1854 371.019 39.7403 370.812 40.05C370.606 40.3597 369.983 40.3068 369.421 39.932C368.86 39.5571 368.572 39.0022 368.779 38.6925C368.986 38.3827 369.609 38.4355 370.17 38.8105Z" fill="white"/>
+               <path d="M367.277 42.9072C366.602 42.9025 366.057 42.5967 366.06 42.2244C366.062 41.8519 366.612 41.5538 367.287 41.5587C367.962 41.5633 368.507 41.8692 368.505 42.2415C368.502 42.6139 367.952 42.9119 367.277 42.9072Z" fill="white"/>
+               <path d="M369.575 43.6478C370.198 43.3878 370.819 43.4557 370.963 43.7994C371.107 44.1432 370.718 44.6325 370.095 44.8924C369.471 45.1524 368.85 45.0845 368.707 44.7407C368.563 44.397 368.952 43.9078 369.575 43.6478Z" fill="white"/>
+               <path d="M368.54 48.2461C369.122 47.9051 369.747 47.8891 369.935 48.2105C370.124 48.5319 369.804 49.0688 369.221 49.41C368.639 49.7511 368.014 49.767 367.825 49.4456C367.637 49.1242 367.957 48.5871 368.54 48.2461Z" fill="white"/>
+               <path d="M372.897 49.6086C373.202 49.0062 373.719 48.6541 374.051 48.8222C374.383 48.9903 374.406 49.6149 374.101 50.2173C373.796 50.8196 373.28 51.1717 372.947 51.0036C372.615 50.8355 372.593 50.2109 372.897 49.6086Z" fill="white"/>
+               <path d="M386.637 64.2262C388.042 63.9478 390.827 63.5941 394.1 64.561C398.046 65.7273 400.442 68.1464 401.398 69.2296C402.676 67.8485 403.954 66.4674 405.233 65.0861C403.98 64.321 401.832 62.7654 400.209 60.0383C397.419 55.3499 398.201 50.59 398.46 49.2876C397.644 49.3795 392.092 50.099 388.739 55.1155C386.111 59.0456 386.496 63.125 386.637 64.2262Z" fill="#9E9569"/>
+               <path d="M398.336 47.1702C396.787 45.7365 394.368 45.8302 392.934 47.3795C392.382 47.9759 392.059 48.7013 391.955 49.4494C391.92 49.4106 391.884 49.3722 391.844 49.3359C391.058 48.608 389.83 48.6557 389.102 49.4423C388.851 49.7125 388.695 50.0352 388.627 50.3713C386.764 48.7827 383.963 48.9341 382.285 50.747C380.564 52.6063 380.677 55.508 382.536 57.2283C382.565 57.2549 382.595 57.28 382.624 57.3057C382.204 58.1951 382.336 59.2721 382.999 60.0371C382.938 60.0945 382.877 60.1509 382.819 60.2134C381.451 61.6912 381.54 63.9976 383.019 65.3652C384.497 66.7326 386.804 66.6431 388.172 65.1654C388.725 64.5677 389.036 63.8342 389.117 63.0823C390.373 63.6497 391.902 63.3864 392.889 62.3194C393.454 61.7096 393.74 60.9435 393.761 60.1733C394.961 60.9394 396.572 60.7643 397.573 59.6828C398.472 58.7122 398.603 57.3079 398.002 56.2082C398.288 56.0529 398.555 55.8516 398.788 55.5996C399.77 54.5395 399.854 52.9722 399.083 51.823C399.915 50.3195 399.655 48.3895 398.336 47.1702Z" fill="#8B865C"/>
+               <path d="M409.408 61.1288C413.75 60.4782 416.936 57.7271 416.525 54.984C416.114 52.2409 412.261 50.5445 407.92 51.1951C403.578 51.8457 400.392 54.5968 400.803 57.3399C401.214 60.083 405.067 61.7794 409.408 61.1288Z" fill="white"/>
+               <path d="M354.701 67.6551C358.68 67.6551 361.906 66.0428 361.906 64.0539C361.906 62.065 358.68 60.4526 354.701 60.4526C350.723 60.4526 347.497 62.065 347.497 64.0539C347.497 66.0428 350.723 67.6551 354.701 67.6551Z" fill="#9E9569"/>
+               <path d="M412.928 67.2604C416.362 67.2604 419.146 66.0457 419.146 64.5472C419.146 63.0487 416.362 61.834 412.928 61.834C409.495 61.834 406.711 63.0487 406.711 64.5472C406.711 66.0457 409.495 67.2604 412.928 67.2604Z" fill="#9E9569"/>
+               <path d="M392.006 72.9831C395.439 72.9831 398.223 71.7683 398.223 70.2699C398.223 68.7714 395.439 67.5566 392.006 67.5566C388.572 67.5566 385.788 68.7714 385.788 70.2699C385.788 71.7683 388.572 72.9831 392.006 72.9831Z" fill="white"/>
+               <path d="M360.855 73.4097C366.015 72.6071 369.779 69.2617 369.261 65.9374C368.744 62.6131 364.143 60.5689 358.983 61.3715C353.823 62.1741 350.06 65.5195 350.577 68.8438C351.094 72.1681 355.696 74.2123 360.855 73.4097Z" fill="#363E44"/>
+               <path d="M352.363 67.3818C352.208 67.1542 353.86 65.3405 356.145 64.2311C360.882 61.9311 366.146 63.723 366.125 64.0211C366.108 64.2616 362.666 63.4113 358.035 64.8611C354.638 65.9249 352.528 67.624 352.363 67.3818Z" fill="white"/>
+               <path d="M342.735 45.7237C343.075 47.1152 343.553 49.8808 342.733 53.1923C341.743 57.1861 339.432 59.6868 338.393 60.6894C339.83 61.9046 341.267 63.1199 342.704 64.3349C343.412 63.0497 344.871 60.8344 347.524 59.0922C352.085 56.0969 356.876 56.666 358.189 56.8665C358.061 56.0556 357.094 50.5431 351.932 47.4171C347.888 44.9684 343.829 45.5347 342.735 45.7237Z" fill="#9E9569"/>
+               <path d="M360.299 56.6489C361.663 55.0372 361.462 52.6256 359.85 51.2624C359.229 50.7378 358.49 50.4471 357.738 50.3773C357.775 50.3399 357.812 50.3022 357.846 50.2614C358.538 49.4431 358.436 48.2188 357.618 47.5268C357.336 47.289 357.007 47.1471 356.668 47.0937C358.173 45.1627 357.897 42.3717 356.01 40.7766C354.076 39.1408 351.181 39.3826 349.545 41.3165C349.52 41.3465 349.496 41.3775 349.472 41.4079C348.564 41.0281 347.494 41.2076 346.759 41.9038C346.699 41.8455 346.64 41.7864 346.575 41.7315C345.037 40.4312 342.736 40.6233 341.436 42.1606C340.135 43.6978 340.327 45.998 341.865 47.2984C342.487 47.8243 343.234 48.102 343.989 48.1493C343.478 49.4291 343.809 50.9445 344.919 51.8833C345.554 52.4198 346.332 52.672 347.102 52.6583C346.39 53.8908 346.637 55.4924 347.762 56.4439C348.772 57.2979 350.181 57.3671 351.254 56.7173C351.421 56.9962 351.635 57.2538 351.897 57.4756C353 58.4084 354.57 58.4226 355.684 57.6013C357.223 58.366 359.14 58.0196 360.299 56.6489Z" fill="#8B865C"/>
+               <path d="M393.753 159.361C393.676 159.361 393.601 159.331 393.544 159.277C393.486 159.222 393.451 159.145 393.449 159.065L392.763 134.395C392.553 126.819 398.545 120.485 406.12 120.274C409.786 120.169 413.28 121.505 415.947 124.028C418.614 126.551 420.139 129.961 420.241 133.631L420.927 158.301C420.931 158.469 420.799 158.609 420.631 158.613L393.761 159.36C393.759 159.361 393.756 159.361 393.753 159.361ZM406.512 120.877C406.387 120.877 406.262 120.879 406.137 120.883C398.897 121.084 393.17 127.138 393.372 134.378L394.049 158.744L420.31 158.014L419.633 133.648C419.535 130.141 418.078 126.882 415.529 124.471C413.071 122.145 409.882 120.877 406.512 120.877Z" fill="#E0AA63"/>
+               <path d="M387.659 159.53C387.581 159.53 387.506 159.5 387.449 159.447C387.391 159.392 387.357 159.315 387.354 159.234L386.669 134.565C386.567 130.895 387.9 127.405 390.423 124.738C392.945 122.071 396.356 120.546 400.026 120.444C403.691 120.341 407.185 121.675 409.852 124.198C412.519 126.721 414.044 130.131 414.146 133.801L414.832 158.47C414.836 158.638 414.704 158.778 414.536 158.783L387.667 159.53C387.664 159.53 387.661 159.53 387.659 159.53ZM400.417 121.047C400.292 121.047 400.168 121.049 400.042 121.052C396.535 121.15 393.276 122.607 390.865 125.156C388.454 127.705 387.18 131.041 387.277 134.548L387.954 158.913L414.215 158.183L413.538 133.818C413.44 130.311 411.983 127.051 409.434 124.64C406.976 122.315 403.786 121.047 400.417 121.047Z" fill="#E0AA63"/>
+               <path d="M450.026 261.806L362.997 264.226L365.468 153.07L441.384 150.959L450.026 261.806Z" fill="#EFBC73"/>
+               <path d="M365.468 153.07L354.344 252.726L362.997 264.226L365.468 153.07Z" fill="#E0AA63"/>
+               <path d="M365.467 153.07L354.344 252.726L344.131 251.39L365.467 153.07Z" fill="#EFBC73"/>
+               <path d="M426.75 228.682C438.828 216.604 438.828 197.022 426.75 184.944C414.672 172.866 395.09 172.866 383.012 184.944C370.934 197.022 370.934 216.604 383.012 228.682C395.09 240.76 414.672 240.76 426.75 228.682Z" fill="white"/>
+               <path d="M418.279 220.211C425.679 212.811 425.679 200.814 418.279 193.414C410.879 186.015 398.882 186.015 391.482 193.414C384.083 200.814 384.083 212.811 391.482 220.211C398.882 227.61 410.879 227.61 418.279 220.211Z" fill="#F7F1EB"/>
+               <path d="M416.935 229.728H414.385V209.395C413.242 208.272 412.619 206.871 412.619 205.427V197.39C412.619 192.677 414.103 188.039 416.935 183.897V229.728Z" fill="#363E44"/>
+               <path d="M398.459 229.683H394.48L394.902 208.823H398.038L398.459 229.683Z" fill="#363E44"/>
+               <path d="M397.087 194.927H395.853V208.8H397.087V194.927Z" fill="#363E44"/>
+               <path d="M400.347 195.231H392.528V184.572C392.528 184.404 392.664 184.268 392.833 184.268C393.001 184.268 393.137 184.404 393.137 184.572V194.623H399.739V184.572C399.739 184.404 399.875 184.268 400.043 184.268C400.211 184.268 400.347 184.404 400.347 184.572L400.347 195.231Z" fill="#363E44"/>
+               <path d="M398.047 195.231H394.812V184.572C394.812 184.404 394.949 184.268 395.117 184.268C395.285 184.268 395.421 184.404 395.421 184.572V194.623H397.438V184.572C397.438 184.404 397.574 184.268 397.742 184.268C397.91 184.268 398.047 184.404 398.047 184.572V195.231Z" fill="#363E44"/>
+               </g>
+               <path d="M476.06 195.78V167.44L561.86 52H606.06L522.08 167.44L501.54 161.46H644.8V195.78H476.06ZM574.08 234V195.78L575.38 161.46V127.4H615.16V234H574.08Z" fill="#12263A"/>
+               <path d="M22.06 195.78V167.44L107.86 52H152.06L68.08 167.44L47.54 161.46H190.8V195.78H22.06ZM120.08 234V195.78L121.38 161.46V127.4H161.16V234H120.08Z" fill="#12263A"/>
+               </g>
+               <defs>
+               <clipPath id="clip0_566_2820">
+               <rect width="660" height="282" fill="white"/>
+               </clipPath>
+               <clipPath id="clip1_566_2820">
+               <rect width="345" height="345" fill="white" transform="translate(158 -32)"/>
+               </clipPath>
+               </defs>
+               </svg>
+               
+
+            <p class="transaction-success__info">Strona której szukasz nie istnieje</p>
+
+            <div class="form__submit-box">
+               <a href="/">
+                  <button class="btn btn--primary">
+                     Strona główna
+                     <span class="btn__arrow">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M12 20L10.575 18.6L16.175 13H4V11H16.175L10.575 5.4L12 4L20 12L12 20Z"
+                              fill="white" />
+                        </svg>
+                     </span>
+                  </button>
+               </a>
+            </div>
+         </div>
+
+      </section>
+
+
+
+
+   </main>
+   <section class="prefoot">
+    <div class="container">
+        <div class="prefoot__entry">
+            <div class="prefoot__entry-name">
+                Dołącz do naszej platformy już dziś i rozpocznij niezapomnianą podróż kulinarną!
+            </div>
+            <a title="Poznaj oferte" href="#" class="btn btn--primary">Poznaj ofertę
+                <span class="btn__arrow">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 20L10.575 18.6L16.175 13H4V11H16.175L10.575 5.4L12 4L20 12L12 20Z" fill="white" />
+                    </svg>
+                </span>
+            </a>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__row">
+            <div class="footer__column">
+                <div class="footer__column-head">
+                    <div class="footer__column-name">
+                        Informacje
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="#FAFAFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-chevron-down">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </div>
+                <div class="footer__column-body">
+                    <ul class="footer__column-list">
+                        <li class="footer__column-item">
+                            <a class="footer__column-link" href="#">O nas</a>
+                        </li>
+                        <li class="footer__column-item">
+                            <a class="footer__column-link" href="#">Kontakt</a>
+                        </li>
+                        <li class="footer__column-item">
+                            <a class="footer__column-link" href="#">Pytania</a>
+                        </li>
+                        <li class="footer__column-item">
+                            <a class="footer__column-link" href="#">Jak dołączyć</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__column">
+                <div class="footer__column-head">
+                    <div class="footer__column-name">
+                        CourseBook
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="#FAFAFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-chevron-down">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </div>
+                <div class="footer__column-body">
+                    <ul class="footer__column-list">
+                        <li class="footer__column-item">
+                            <a class="footer__column-link" href="#">Blog</a>
+                        </li>
+                        <li class="footer__column-item">
+                            <a class="footer__column-link" href="#">Galeria</a>
+                        </li>
+                        <li class="footer__column-item">
+                            <a class="footer__column-link" href="#">Zaloguj się</a>
+                        </li>
+                        <li class="footer__column-item">
+                            <a class="footer__column-link" href="#">Załóż konto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__column">
+                <div class="footer__column-head">
+                    <div class="footer__column-name">
+                        Kontakt
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="#FAFAFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-chevron-down">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </div>
+                <div class="footer__column-body">
+                    <ul class="footer__column-list">
+                        <li class="footer__column-item">
+                            <a class="footer__column-link" href="#">+48 536 918 642</a>
+                        </li>
+                        <li class="footer__column-item">
+                            <a class="footer__column-link" href="#">pomoc@coursebook.pl</a>
+                        </li>
+                    </ul>
+                    <div class="footer__column-socials">
+                        <a class="footer__column-social" href="#">
+                            <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M30.9375 3.9375H5.0625C4.44023 3.9375 3.9375 4.44023 3.9375 5.0625V30.9375C3.9375 31.5598 4.44023 32.0625 5.0625 32.0625H30.9375C31.5598 32.0625 32.0625 31.5598 32.0625 30.9375V5.0625C32.0625 4.44023 31.5598 3.9375 30.9375 3.9375ZM27.6891 12.1465H25.4426C23.6812 12.1465 23.3402 12.9832 23.3402 14.2137V16.9242H27.5449L26.9965 21.1676H23.3402V32.0625H18.9563V21.1711H15.2895V16.9242H18.9563V13.7953C18.9563 10.1637 21.1746 8.18438 24.416 8.18438C25.9699 8.18438 27.3023 8.30039 27.6926 8.35313V12.1465H27.6891Z"
+                                    fill="#FFAD66" />
+                            </svg>
+                        </a>
+                        <a class="footer__column-social" href="#">
+                            <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M11.7 3H24.3C29.1 3 33 6.9 33 11.7V24.3C33 26.6074 32.0834 28.8203 30.4518 30.4518C28.8203 32.0834 26.6074 33 24.3 33H11.7C6.9 33 3 29.1 3 24.3V11.7C3 9.39262 3.9166 7.17974 5.54817 5.54817C7.17974 3.9166 9.39262 3 11.7 3ZM11.4 6C9.96783 6 8.59432 6.56893 7.58162 7.58162C6.56893 8.59432 6 9.96783 6 11.4V24.6C6 27.585 8.415 30 11.4 30H24.6C26.0322 30 27.4057 29.4311 28.4184 28.4184C29.4311 27.4057 30 26.0322 30 24.6V11.4C30 8.415 27.585 6 24.6 6H11.4ZM25.875 8.25C26.3723 8.25 26.8492 8.44754 27.2008 8.79917C27.5525 9.1508 27.75 9.62772 27.75 10.125C27.75 10.6223 27.5525 11.0992 27.2008 11.4508C26.8492 11.8025 26.3723 12 25.875 12C25.3777 12 24.9008 11.8025 24.5492 11.4508C24.1975 11.0992 24 10.6223 24 10.125C24 9.62772 24.1975 9.1508 24.5492 8.79917C24.9008 8.44754 25.3777 8.25 25.875 8.25ZM18 10.5C19.9891 10.5 21.8968 11.2902 23.3033 12.6967C24.7098 14.1032 25.5 16.0109 25.5 18C25.5 19.9891 24.7098 21.8968 23.3033 23.3033C21.8968 24.7098 19.9891 25.5 18 25.5C16.0109 25.5 14.1032 24.7098 12.6967 23.3033C11.2902 21.8968 10.5 19.9891 10.5 18C10.5 16.0109 11.2902 14.1032 12.6967 12.6967C14.1032 11.2902 16.0109 10.5 18 10.5ZM18 13.5C16.8065 13.5 15.6619 13.9741 14.818 14.818C13.9741 15.6619 13.5 16.8065 13.5 18C13.5 19.1935 13.9741 20.3381 14.818 21.182C15.6619 22.0259 16.8065 22.5 18 22.5C19.1935 22.5 20.3381 22.0259 21.182 21.182C22.0259 20.3381 22.5 19.1935 22.5 18C22.5 16.8065 22.0259 15.6619 21.182 14.818C20.3381 13.9741 19.1935 13.5 18 13.5Z"
+                                    fill="#FFAD66" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+   <script src="../dist/js/main.min.js"></script>
+</body>
+
+</html>

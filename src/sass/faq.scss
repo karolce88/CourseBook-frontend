@@ -1,0 +1,120 @@
+.faq-h2 {
+	font-size: 2rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 42px;
+	color: var(--blue-color);
+	margin-bottom: 42px;
+}
+
+.faq {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	margin-bottom: 88px;
+	color: var(--blue-color);
+
+	&__img {
+		width: 25%;
+      position: relative;
+
+      &__item {
+         top: 180px;
+         position: sticky;
+      }
+	}
+
+	&__content {
+		width: 75%;
+		margin-left: 25px;
+		background-color: var(--white-color);
+		padding: 48px 35px;
+
+		&__box {
+			padding-bottom: 10px;
+			margin-bottom: 12px;
+			border-bottom: 2px solid var(--blue-color);
+			border-bottom: 2px solid #585858;
+
+			&__question {
+            font-size: 20px;
+				padding: 8px;
+				font-weight: 700;
+				display: flex;
+				justify-content: space-between;
+				cursor: pointer;
+            transition: all .3s;
+
+            &:hover {
+               color: var(--primary-color);
+            }
+
+            &__svg {
+               min-width: 35px;
+               min-height: 35px;
+               margin-left: 18px;
+               pointer-events: none;
+               transition: all .4s;
+            }
+			}
+
+			&__answer {
+				padding-bottom: 10px;
+				font-size: 18px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: 30px;
+            margin-top: 10px;
+            padding: 0 8px;
+            display: none;
+            transition: all .9s;
+			}
+		}
+	}
+}
+
+.show {
+   display: block;
+}
+
+.rotate {
+   rotate: (180deg);
+}
+
+@media (max-width: 992px) {
+   .faq {
+      flex-direction: column;
+
+      &__img {
+         width: 100%;
+         padding: 0 18px;
+         text-align: center;
+
+         &__item {
+            width: 50%;
+         }
+      }
+
+      &__content {
+         width: 100%;
+         margin-left: 0px;
+
+         &__box {
+            &__questions {
+               &__svg {
+                  min-width: 28px;
+                  min-height: 28px;
+               }
+            }
+         }
+      }
+   }
+}
+
+@media (max-width: 765px) {
+   .faq {
+      &__content {
+         padding: 48px 12px;
+      }
+   }
+}

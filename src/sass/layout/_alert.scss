@@ -1,0 +1,32 @@
+@use "./utilities/index" as *;
+
+.alert {
+  position: fixed;
+  display: flex;
+  gap: 18px;
+  background-color: var(--white-color);
+  padding: 24px 48px;
+  border-radius: 4px;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, 20%);
+  @include bodyM();
+  font-weight: 400;
+  color: var(--grey-text);
+  box-shadow: 0px 0px 24px 1px rgba(200, 200, 200, 0.1);
+  transition: all 0.3s ease-in-out;
+  z-index: 99;
+
+  &--error {
+    border-left: 4px solid red;
+  }
+
+  &--success {
+    border-left: 4px solid #47d762;
+  }
+
+  &__hide {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

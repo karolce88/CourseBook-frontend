@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coursebook</title>
+  <!-- @include 'font_style.kit' -->
+  <link rel="stylesheet" href="./dist/css/global.min.css">
+  <link rel="stylesheet" href="./dist/css/login.min.css">
+
+</head>
+
+<body class="special">
+  <!-- @include 'nav.kit' -->
+  <main>
+    <section class="register">
+      <div class="container">
+        <div class="register__inner">
+          <div class="register__box">
+            <div class="login__box-title">
+              Zarejestruj się
+            </div>
+            <form method="POST" class="register__form" action="">
+              <div class="form__row">
+                <div class="form__group">
+                  <input name="first_name" placeholder="Imię" id="username"
+                    class="form__group-input form__group-input--error" type="text" />
+                  <p class="form__group-paragraph--error">błąd błąd błąd błąd błąd </p>
+                </div>
+                <div class="form__group">
+                  <input name="last_name" placeholder="Nazwisko" id="users-surname" class="form__group-input"
+                    type="text" />
+                  <p class="form__group-paragraph--error">błąd błąd błąd błąd</p>
+                </div>
+              </div>
+              <div class="form__row">
+                <div class="form__group">
+                  <input name="email" placeholder="Adres e-mail" id="userEmail" class="form__group-input"
+                    type="email" />
+                  <p class="form__group-paragraph--error">błąd błąd błąd błąd </p>
+                </div>
+              </div>
+              <div class="form__row">
+                <div class="form__group">
+                  <input name="password" placeholder="Hasło" id="userPassword" class="form__group-input"
+                    type="password" />
+                  <p class="form__group-paragraph--error">błąd błąd błąd błąd błąd </p>
+                </div>
+              </div>
+              <div class="form__row">
+                <div class="form__group">
+                </div>
+              </div>
+              <button title="Zarejestruj się" href="#" class="btn btn--primary userRegisterBtn">
+                Zarejestruj się
+                <span class="btn__arrow">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 20L10.575 18.6L16.175 13H4V11H16.175L10.575 5.4L12 4L20 12L12 20Z" fill="white" />
+                  </svg>
+                </span>
+              </button>
+            </form>
+          </div>
+          <a href="./login.html" class="login__return">Powrót do logowania</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- @include 'footer.kit' -->
+  <script src="../dist/js/register-user.min.js"></script>
+  <script src="../dist/js/main.min.js"></script>
+</body>
+
+</html>

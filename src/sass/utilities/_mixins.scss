@@ -1,0 +1,85 @@
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+
+@mixin sm {
+  @media (min-width: #{$sm}) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (min-width: #{$md}) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (min-width: #{$lg}) {
+    @content;
+  }
+}
+
+@mixin xl {
+  @media (min-width: #{$xl}) {
+    @content;
+  }
+}
+
+@mixin xxl {
+  @media (min-width: #{$xxl}) {
+    @content;
+  }
+}
+
+@mixin heading1 {
+  font-size: 3rem;
+  line-height: 64px;
+}
+
+@mixin heading2 {
+  font-size: 2.5rem;
+  line-height: 52px;
+}
+
+@mixin heading3 {
+  font-size: 2rem;
+  line-height: 42px;
+}
+
+@mixin heading4 {
+  font-size: 1.5rem;
+  line-height: 32px;
+}
+
+@mixin heading5 {
+  font-size: 1.25rem;
+  line-height: 28px;
+}
+
+@mixin heading6 {
+  font-size: 1rem;
+  line-height: 20px;
+}
+
+@mixin bodyXl {
+  font-size: 1.25rem;
+  line-height: 30px;
+}
+
+@mixin bodyL {
+  font-size: 1.125rem;
+  line-height: 28px;
+}
+
+@mixin bodyM {
+  font-size: 1rem;
+  line-height: 24px;
+}
+
+@mixin bodyS {
+  font-size: 0.875rem;
+  line-height: 24px;
+}

@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Coursebook</title>
+   <style>
+    @font-face {
+        font-family: "Montserrat";
+        font-display: swap;
+        src: url("./dist/fonts/Montserrat-Regular.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "Montserrat";
+        font-display: swap;
+        src: url("./dist/fonts/Montserrat-Medium.ttf") format("truetype");
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "Montserrat";
+        font-display: swap;
+        src: url("./dist/fonts/Montserrat-SemiBold.ttf") format("truetype");
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "Montserrat";
+        font-display: swap;
+        src: url("./dist/fonts/Montserrat-Bold.ttf") format("truetype");
+        font-weight: 700;
+        font-style: normal;
+    }
+</style>
+   <link rel="stylesheet" href="./dist/css/global.min.css">
+   <link rel="stylesheet" href="./dist/css/blog.min.css">
+</head>
+
+
+
+<body>
+   <div class="bar">
+    <div class="container">
+        <div class="bar__inner">
+            <div class="bar__box">
+                <div class="bar__box-office">
+                    <p>Biuro obsługi klienta:</p>
+                    <a href="tel:+123456789">+48 536 918 642</a>
+                </div>
+                <div class="bar__separator"></div>
+                <ul class="bar__box-menu">
+                    <li class="bar__menu-item">
+                        <a class="bar__menu-link" href="#">O nas</a>
+                    </li>
+                    <li class="bar__menu-item">
+                        <a class="bar__menu-link" href="#">Pytania</a>
+                    </li>
+                    <li class="bar__menu-item">
+                        <a class="bar__menu-link" href="#">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<nav class="nav">
+    <div class="container">
+        <div class="nav__inner">
+            <div class="nav__left">
+                <a href="./index.html" class="nav__left-logo">
+                    CourseBook
+                </a>
+
+                <div class="nav__left-drop">
+                    <p class="nav__menu-link">
+                        Szkolenia
+                    </p>
+                    <svg class="nav__menu-link-svg" width="34" height="34" viewBox="0 0 34 34" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10.4975 12.155L17 18.6575L23.5025 12.155L25.5 14.1667L17 22.6667L8.5 14.1667L10.4975 12.155Z"
+                            fill="#FF7700" />
+                    </svg>
+                    <div class="nav__submenu">
+                        <div class="nav__submenu-list">
+                            <a href="#" class="nav__submenu-item">
+                                <div class="nav__submenu-name">
+                                    Dolnośląskie
+                                </div>
+                                <div class="nav__submenu-desc">
+                                    Zapraszamy do odkrycia fascynujących szkoleń województwa dolnośląskiego, które
+                                    stanowią
+                                    prawdziwe kulinarne doświadczenie
+                                </div>
+                            </a>
+                            <a href="#" class="nav__submenu-item">
+                                <div class="nav__submenu-name">
+                                    Kujawsko-Pomorskie
+                                </div>
+                                <div class="nav__submenu-desc">
+                                    Zapraszamy do odkrycia fascynujących szkoleń województwa kujawsko-pomorskiego, które
+                                    stanowią
+                                    prawdziwe kulinarne doświadczenie
+                                </div>
+                            </a>
+                            <a href="#" class="nav__submenu-item">
+                                <div class="nav__submenu-name">
+                                    Lubelskie
+                                </div>
+                                <div class="nav__submenu-desc">
+                                    Zapraszamy do odkrycia fascynujących szkoleń województwa lubelskiego, które
+                                    stanowią
+                                    prawdziwe kulinarne doświadczenie
+                                </div>
+                            </a>
+                            <a href="#" class="nav__submenu-item">
+                                <div class="nav__submenu-name">
+                                    Lubuskie
+                                </div>
+                                <div class="nav__submenu-desc">
+                                    Zapraszamy do odkrycia fascynujących szkoleń województwa lubuskiego, które
+                                    stanowią
+                                    prawdziwe kulinarne doświadczenie
+                                </div>
+                            </a>
+                            <a href="#" class="nav__submenu-item">
+                                <div class="nav__submenu-name">
+                                    Łódzkie
+                                </div>
+                                <div class="nav__submenu-desc">
+                                    Zapraszamy do odkrycia fascynujących szkoleń województwa łódzkiego, które
+                                    stanowią
+                                    prawdziwe kulinarne doświadczenie
+                                </div>
+                            </a>
+                            <a href="#" class="nav__submenu-item">
+                                <div class="nav__submenu-name">
+                                    Małopolskie
+                                </div>
+                                <div class="nav__submenu-desc">
+                                    Zapraszamy do odkrycia fascynujących szkoleń województwa małopolskiego, które
+                                    stanowią
+                                    prawdziwe kulinarne doświadczenie
+                                </div>
+                            </a>
+                            <a href="#" class="nav__submenu-item">
+                                <div class="nav__submenu-name">
+                                    Mazowieckie
+                                </div>
+                                <div class="nav__submenu-desc">
+                                    Zapraszamy do odkrycia fascynujących szkoleń województwa mazowieckiego, które
+                                    stanowią
+                                    prawdziwe kulinarne doświadczenie
+                                </div>
+                            </a>
+                            <a href="#" class="nav__submenu-item">
+                                <div class="nav__submenu-name">
+                                    Opolskie
+                                </div>
+                                <div class="nav__submenu-desc">
+                                    Zapraszamy do odkrycia fascynujących szkoleń województwa opolskiego, które
+                                    stanowią
+                                    prawdziwe kulinarne doświadczenie
+                                </div>
+                            </a>
+                            <a href="#" class="nav__submenu-item">
+                                <div class="nav__submenu-name">
+                                    Podkarpackie
+                                </div>
+                                <div class="nav__submenu-desc">
+                                    Zapraszamy do odkrycia fascynujących szkoleń województwa podkarpackiego, które
+                                    stanowią
+                                    prawdziwe kulinarne doświadczenie
+                                </div>
+                            </a>
+                            <a href="#" class="nav__submenu-item">
+                                <div class="nav__submenu-name">
+                                    Podlaskie
+                                </div>
+                                <div class="nav__submenu-desc">
+                                    Zapraszamy do odkrycia fascynujących szkoleń województwa podlaskiego, które
+                                    stanowią
+                                    prawdziwe kulinarne doświadczenie
+                                </div>
+                            </a>
+                            <a href="#" class="nav__submenu-item">
+                                <div class="nav__submenu-name">
+                                    Pomorskie
+                                </div>
+                                <div class="nav__submenu-desc">
+                                    Zapraszamy do odkrycia fascynujących szkoleń województwa pomorskiego, które
+                                    stanowią
+                                    prawdziwe kulinarne doświadczenie
+                                </div>
+                            </a>
+                            <a href="#" class="nav__submenu-item">
+                                <div class="nav__submenu-name">
+                                    Śląskie
+                                </div>
+                                <div class="nav__submenu-desc">
+                                    Zapraszamy do odkrycia fascynujących szkoleń województwa śląskiego, które
+                                    stanowią
+                                    prawdziwe kulinarne doświadczenie
+                                </div>
+                            </a>
+                            <a href="#" class="nav__submenu-item">
+                                <div class="nav__submenu-name">
+                                    Świętokrzyskie
+                                </div>
+                                <div class="nav__submenu-desc">
+                                    Zapraszamy do odkrycia fascynujących szkoleń województwa świętokrzyskiego, które
+                                    stanowią
+                                    prawdziwe kulinarne doświadczenie
+                                </div>
+                            </a>
+                            <a href="#" class="nav__submenu-item">
+                                <div class="nav__submenu-name">
+                                    Warmińsko-mazurskie
+                                </div>
+                                <div class="nav__submenu-desc">
+                                    Zapraszamy do odkrycia fascynujących szkoleń województwa warmińsko-mazurskiego,
+                                    które
+                                    stanowią
+                                    prawdziwe kulinarne doświadczenie
+                                </div>
+                            </a>
+                            <a href="#" class="nav__submenu-item">
+                                <div class="nav__submenu-name">
+                                    Wielkopolskie
+                                </div>
+                                <div class="nav__submenu-desc">
+                                    Zapraszamy do odkrycia fascynujących szkoleń województwa wielkopolskiego, które
+                                    stanowią
+                                    prawdziwe kulinarne doświadczenie
+                                </div>
+                            </a>
+                            <a href="#" class="nav__submenu-item">
+                                <div class="nav__submenu-name">
+                                    Zachpdniopomorskie
+                                </div>
+                                <div class="nav__submenu-desc">
+                                    Zapraszamy do odkrycia fascynujących szkoleń województwa zachodniopomorskiego, które
+                                    stanowią
+                                    prawdziwe kulinarne doświadczenie
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <ul class="nav__left-menu">
+                    <li class="nav__menu-item">
+                        <a href="#" class="nav__menu-link">
+                            Nowości
+                        </a>
+                    </li>
+                    <li class="nav__menu-item">
+                        <a href="#" class="nav__menu-link">
+                            Blog
+                        </a>
+                    </li>
+                    <li class="nav__menu-item">
+                        <a href="#" class="nav__menu-link">
+                            Galeria
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav__right">
+                <div class="nav__account">
+
+
+                    <a href="./login.html">
+                        <svg class="nav__right-user" width="34" height="34" viewBox="0 0 34 34" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M17 5.66663C18.5029 5.66663 19.9442 6.26365 21.0069 7.32635C22.0696 8.38906 22.6666 9.8304 22.6666 11.3333C22.6666 12.8362 22.0696 14.2775 21.0069 15.3402C19.9442 16.4029 18.5029 17 17 17C15.4971 17 14.0557 16.4029 12.993 15.3402C11.9303 14.2775 11.3333 12.8362 11.3333 11.3333C11.3333 9.8304 11.9303 8.38906 12.993 7.32635C14.0557 6.26365 15.4971 5.66663 17 5.66663ZM17 19.8333C23.2616 19.8333 28.3333 22.3691 28.3333 25.5V28.3333H5.66663V25.5C5.66663 22.3691 10.7383 19.8333 17 19.8333Z"
+                                fill="#12263A" />
+                        </svg>
+                    </a>
+
+
+                    <svg class="nav__right-cart" width="34" height="34" viewBox="0 0 34 34" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10.0625 4.25C9.78071 4.25 9.51046 4.36194 9.3112 4.5612C9.11194 4.76046 9 5.03071 9 5.3125C9 5.59429 9.11194 5.86454 9.3112 6.0638C9.51046 6.26306 9.78071 6.375 10.0625 6.375H10.5853C10.816 6.3754 11.0403 6.45088 11.2243 6.59005C11.4083 6.72921 11.542 6.92449 11.6053 7.14637L14.9755 18.9401C15.1661 19.6057 15.5682 20.1911 16.1211 20.6078C16.6739 21.0246 17.3474 21.25 18.0398 21.25H27.7489C28.386 21.2501 29.0086 21.0592 29.5363 20.7021C30.0639 20.3449 30.4724 19.8377 30.709 19.2461L33.8412 11.4134C33.97 11.0911 34.0179 10.7421 33.9806 10.3971C33.9434 10.052 33.8222 9.72127 33.6277 9.43385C33.4331 9.14643 33.1711 8.91103 32.8646 8.74824C32.5581 8.58545 32.2163 8.50022 31.8692 8.5H14.202L13.6474 6.562C13.4572 5.89639 13.0556 5.31077 12.5031 4.89366C11.9507 4.47654 11.2775 4.2506 10.5853 4.25H10.0625ZM18.5625 29.75C18.9811 29.75 19.3956 29.6676 19.7823 29.5074C20.169 29.3472 20.5204 29.1124 20.8164 28.8164C21.1124 28.5204 21.3472 28.169 21.5074 27.7823C21.6676 27.3956 21.75 26.9811 21.75 26.5625C21.75 26.1439 21.6676 25.7294 21.5074 25.3427C21.3472 24.956 21.1124 24.6046 20.8164 24.3086C20.5204 24.0126 20.169 23.7778 19.7823 23.6176C19.3956 23.4574 18.9811 23.375 18.5625 23.375C17.7171 23.375 16.9064 23.7108 16.3086 24.3086C15.7108 24.9064 15.375 25.7171 15.375 26.5625C15.375 27.4079 15.7108 28.2186 16.3086 28.8164C16.9064 29.4142 17.7171 29.75 18.5625 29.75ZM27.0625 29.75C27.4811 29.75 27.8956 29.6676 28.2823 29.5074C28.669 29.3472 29.0204 29.1124 29.3164 28.8164C29.6124 28.5204 29.8472 28.169 30.0074 27.7823C30.1676 27.3956 30.25 26.9811 30.25 26.5625C30.25 26.1439 30.1676 25.7294 30.0074 25.3427C29.8472 24.956 29.6124 24.6046 29.3164 24.3086C29.0204 24.0126 28.669 23.7778 28.2823 23.6176C27.8956 23.4574 27.4811 23.375 27.0625 23.375C26.2171 23.375 25.4064 23.7108 24.8086 24.3086C24.2108 24.9064 23.875 25.7171 23.875 26.5625C23.875 27.4079 24.2108 28.2186 24.8086 28.8164C25.4064 29.4142 26.2171 29.75 27.0625 29.75Z"
+                            fill="#12263A" />
+                    </svg>
+
+                    <div class="nav__right-cart-icon ">
+                        <p class="nav__right-cart-icon-number"></p>
+                    </div>
+
+                    <div class="nav__left-burgerBox">
+                        <svg class="nav__account-burger jsBurger" xmlns="http://www.w3.org/2000/svg" width="42"
+                            height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+                            <line x1="3" y1="12" x2="21" y2="12"></line>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <line x1="3" y1="18" x2="21" y2="18"></line>
+                        </svg>
+
+                        <svg class="nav__account-btnclose jsCloseBurger" xmlns="http://www.w3.org/2000/svg" width="42"
+                            height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="feather feather-x">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nav__cart">
+
+        <div class="nav__empty">
+            <div class="nav__cart-head">
+                <p class="nav__cart-head-text">Twój koszyk</p>
+                <svg class="nav__cart-head-closebtn" width="28" height="28" viewBox="0 0 28 28" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M7.46683 22.1668L5.8335 20.5335L12.3668 14.0002L5.8335 7.46683L7.46683 5.8335L14.0002 12.3668L20.5335 5.8335L22.1668 7.46683L15.6335 14.0002L22.1668 20.5335L20.5335 22.1668L14.0002 15.6335L7.46683 22.1668Z"
+                        fill="#A4243B" />
+                </svg>
+            </div>
+
+            <div class="nav__cart-container">
+                <div class="nav__cart-container-boxes">
+
+
+                    <div class="nav__cart-container-boxes-empty-cart">
+
+                        <svg width="80" height="80" viewBox="0 0 118 118" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M117.438 111.438L6.56167 0.561523L0 7.12319L22.6817 29.8049L34.1 53.8815L27.125 66.5399C26.2983 67.9865 25.8333 69.6915 25.8333 71.4999C25.8333 74.2404 26.922 76.8687 28.8599 78.8066C30.7978 80.7445 33.4261 81.8332 36.1667 81.8332H74.71L81.84 88.9632C79.2567 90.8232 77.5 93.8715 77.5 97.3332C77.5 100.074 78.5887 102.702 80.5266 104.64C82.4644 106.578 85.0928 107.667 87.8333 107.667C91.295 107.667 94.3433 105.962 96.2033 103.327L110.877 118L117.438 111.438ZM38.3367 71.4999C37.9941 71.4999 37.6656 71.3638 37.4233 71.1215C37.1811 70.8793 37.045 70.5508 37.045 70.2082L37.2 69.5882L41.85 61.1665H54.0433L64.3767 71.4999H38.3367ZM80.3417 61.1665C84.2167 61.1665 87.6267 59.0482 89.3833 55.8449L107.88 22.4165C108.293 21.5899 108.5 20.7115 108.5 19.8332C108.5 18.4629 107.956 17.1487 106.987 16.1798C106.018 15.2109 104.704 14.6665 103.333 14.6665H33.79L80.3417 61.1665ZM36.1667 86.9999C33.4261 86.9999 30.7978 88.0885 28.8599 90.0264C26.922 91.9643 25.8333 94.5926 25.8333 97.3332C25.8333 100.074 26.922 102.702 28.8599 104.64C30.7978 106.578 33.4261 107.667 36.1667 107.667C38.9072 107.667 41.5356 106.578 43.4734 104.64C45.4113 102.702 46.5 100.074 46.5 97.3332C46.5 94.5926 45.4113 91.9643 43.4734 90.0264C41.5356 88.0885 38.9072 86.9999 36.1667 86.9999Z"
+                                fill="#FFAD66" />
+                        </svg>
+
+                        <p class="nav__cart-container-boxes-empty-cart-text">Koszyk jest pusty</p>
+
+                        <a title="Do sklepu" href="{% url 'home' %}"
+                            class="btn btn--primary nav__cart-container-footer-btn">Do sklepu
+                            <span class="btn__arrow">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 20L10.575 18.6L16.175 13H4V11H16.175L10.575 5.4L12 4L20 12L12 20Z"
+                                        fill="white" />
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+
+
+                    <!-- <div class="nav__cart-container-boxes-box">
+                        <img class="nav__cart-container-boxes-box-img" src="https://azarog.pythonanywhere.com/media/course_images/kreatywne-gotowanie-roslinne/zdjecie_3_orginal.jpg">
+                        <div class="nav__cart-container-boxes-box-content">
+                            <p class="nav__cart-container-boxes-box-content-title">Kurs gotowania Włoskiej Kuchni</p>
+                            <div>
+                                <div class="nav__cart-container-boxes-box-content-data">
+                                    <svg class="nav__cart-container-boxes-box-content-svgicon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                        <path d="M8.48734 9.654L9.304 8.82275L7.58317 7.10192V4.6665H6.4165V7.58317L8.48734 9.654ZM6.4165 3.49984H7.58317V2.33317H6.4165V3.49984ZM10.4998 7.58317H11.6665V6.4165H10.4998V7.58317ZM6.4165 11.6665H7.58317V10.4998H6.4165V11.6665ZM2.33317 7.58317H3.49984V6.4165H2.33317V7.58317ZM6.99984 12.8332C6.19289 12.8332 5.43456 12.6799 4.72484 12.3735C4.01512 12.0671 3.39775 11.6515 2.87275 11.1269C2.34775 10.6019 1.93223 9.98456 1.62617 9.27484C1.32012 8.56511 1.16689 7.80678 1.1665 6.99984C1.1665 6.19289 1.31973 5.43456 1.62617 4.72484C1.93262 4.01512 2.34814 3.39775 2.87275 2.87275C3.39775 2.34775 4.01512 1.93223 4.72484 1.62617C5.43456 1.32012 6.19289 1.16689 6.99984 1.1665C7.80678 1.1665 8.56511 1.31973 9.27484 1.62617C9.98456 1.93262 10.6019 2.34814 11.1269 2.87275C11.6519 3.39775 12.0676 4.01512 12.3741 4.72484C12.6805 5.43456 12.8336 6.19289 12.8332 6.99984C12.8332 7.80678 12.6799 8.56511 12.3735 9.27484C12.0671 9.98456 11.6515 10.6019 11.1269 11.1269C10.6019 11.6519 9.98456 12.0676 9.27484 12.3741C8.56511 12.6805 7.80678 12.8336 6.99984 12.8332Z" fill="#FF7700"/>
+                                        </svg>
+                                    <p>2023-12-16</p>
+                                </div>
+                                <div class="nav__cart-container-boxes-box-content-data">
+                                    <svg class="nav__cart-container-boxes-box-content-svgicon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                        <path d="M7.00016 6.99984C7.321 6.99984 7.59575 6.8855 7.82441 6.65684C8.05308 6.42817 8.16722 6.15361 8.16683 5.83317C8.16683 5.51234 8.0525 5.23759 7.82383 5.00892C7.59516 4.78025 7.32061 4.66611 7.00016 4.6665C6.67933 4.6665 6.40458 4.78084 6.17591 5.0095C5.94725 5.23817 5.83311 5.51273 5.8335 5.83317C5.8335 6.154 5.94783 6.42875 6.1765 6.65742C6.40516 6.88609 6.67972 7.00023 7.00016 6.99984ZM7.00016 12.8332C5.43488 11.5012 4.26588 10.2642 3.49316 9.122C2.72044 7.97984 2.33388 6.92245 2.3335 5.94984C2.3335 4.4915 2.80269 3.3297 3.74108 2.46442C4.67947 1.59914 5.76583 1.1665 7.00016 1.1665C8.23488 1.1665 9.32144 1.59914 10.2598 2.46442C11.1982 3.3297 11.6672 4.4915 11.6668 5.94984C11.6668 6.92206 11.2803 7.97945 10.5072 9.122C9.73405 10.2646 8.56505 11.5016 7.00016 12.8332Z" fill="#FF7700"/>
+                                        </svg>
+                                    <p>Warszawa</p>
+                                </div>
+                                <div class="nav__cart-container-boxes-box-content-data">
+                                    <svg class="nav__cart-container-boxes-box-content-svgicon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                        <path d="M7.00016 7.00016C6.3585 7.00016 5.80919 6.77169 5.35225 6.31475C4.8953 5.8578 4.66683 5.3085 4.66683 4.66683C4.66683 4.02516 4.8953 3.47586 5.35225 3.01891C5.80919 2.56197 6.3585 2.3335 7.00016 2.3335C7.64183 2.3335 8.19114 2.56197 8.64808 3.01891C9.10502 3.47586 9.3335 4.02516 9.3335 4.66683C9.3335 5.3085 9.10502 5.8578 8.64808 6.31475C8.19114 6.77169 7.64183 7.00016 7.00016 7.00016ZM2.3335 11.6668V10.0335C2.3335 9.70294 2.41866 9.39902 2.589 9.12175C2.75933 8.84447 2.98527 8.63311 3.26683 8.48766C3.86961 8.18627 4.48211 7.96013 5.10433 7.80925C5.72655 7.65836 6.3585 7.58311 7.00016 7.5835C7.64183 7.5835 8.27377 7.65894 8.896 7.80983C9.51822 7.96072 10.1307 8.18666 10.7335 8.48766C11.0154 8.6335 11.2416 8.84505 11.4119 9.12233C11.5822 9.39961 11.6672 9.70333 11.6668 10.0335V11.6668H2.3335Z" fill="#FF7700"/>
+                                        </svg>
+                                    <p>Jacek Kowalski</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav__cart-container-boxes-box-price">
+                            <p class="nav__cart-container-boxes-box-price-delete">Usuń produkt</p>
+                            <p class="nav__cart-container-boxes-box-price-sum">
+                                <span class="nav__cart-container-boxes-box-price-sum-item">299zł /</span><span> 1szt.</span>
+                            </p>
+                           
+
+
+                            <form method="POST" action="">
+                                <input name="_token" type="hidden" value="">
+                                <input name="_method" type="hidden" value="PUT">
+                                    <div class="nav__cart-container-boxes-box-price-form">
+                                        <div class="nav__cart-container-boxes-box-price-form-minus">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                            <path d="M14.25 9.74854H3.75V8.24854H14.25V9.74854Z" fill="#12263A"/>
+                                            </svg>
+                                        </div>
+                                        <input name="qty" type="text" value="1" data-current-value="1" class="nav__cart-container-boxes-box-price-form-input" aria-label="@lang('shop::global.items_qty')" data-hash="">
+                                        <div class="nav__cart-container-boxes-box-price-form-plus"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                            <path d="M14.25 9.74854H9.75V14.2485H8.25V9.74854H3.75V8.24854H8.25V3.74854H9.75V8.24854H14.25V9.74854Z" fill="#12263A"/>
+                                            </svg></div>
+                                    </div>
+                                </form>
+                        </div>
+                    </div>
+
+
+
+
+
+                    
+
+
+
+
+
+
+                    <div class="nav__cart-container-boxes-box">
+                        <img class="nav__cart-container-boxes-box-img" src="https://azarog.pythonanywhere.com/media/course_images/kreatywne-gotowanie-roslinne/zdjecie_3_orginal.jpg">
+                        <div class="nav__cart-container-boxes-box-content">
+                            <p class="nav__cart-container-boxes-box-content-title">Kurs gotowania Włoskiej Kuchni</p>
+                            <div>
+                                <div class="nav__cart-container-boxes-box-content-data">
+                                    <svg class="nav__cart-container-boxes-box-content-svgicon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                        <path d="M8.48734 9.654L9.304 8.82275L7.58317 7.10192V4.6665H6.4165V7.58317L8.48734 9.654ZM6.4165 3.49984H7.58317V2.33317H6.4165V3.49984ZM10.4998 7.58317H11.6665V6.4165H10.4998V7.58317ZM6.4165 11.6665H7.58317V10.4998H6.4165V11.6665ZM2.33317 7.58317H3.49984V6.4165H2.33317V7.58317ZM6.99984 12.8332C6.19289 12.8332 5.43456 12.6799 4.72484 12.3735C4.01512 12.0671 3.39775 11.6515 2.87275 11.1269C2.34775 10.6019 1.93223 9.98456 1.62617 9.27484C1.32012 8.56511 1.16689 7.80678 1.1665 6.99984C1.1665 6.19289 1.31973 5.43456 1.62617 4.72484C1.93262 4.01512 2.34814 3.39775 2.87275 2.87275C3.39775 2.34775 4.01512 1.93223 4.72484 1.62617C5.43456 1.32012 6.19289 1.16689 6.99984 1.1665C7.80678 1.1665 8.56511 1.31973 9.27484 1.62617C9.98456 1.93262 10.6019 2.34814 11.1269 2.87275C11.6519 3.39775 12.0676 4.01512 12.3741 4.72484C12.6805 5.43456 12.8336 6.19289 12.8332 6.99984C12.8332 7.80678 12.6799 8.56511 12.3735 9.27484C12.0671 9.98456 11.6515 10.6019 11.1269 11.1269C10.6019 11.6519 9.98456 12.0676 9.27484 12.3741C8.56511 12.6805 7.80678 12.8336 6.99984 12.8332Z" fill="#FF7700"/>
+                                        </svg>
+                                    <p>2023-11-24</p>
+                                </div>
+                                <div class="nav__cart-container-boxes-box-content-data">
+                                    <svg class="nav__cart-container-boxes-box-content-svgicon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                        <path d="M7.00016 6.99984C7.321 6.99984 7.59575 6.8855 7.82441 6.65684C8.05308 6.42817 8.16722 6.15361 8.16683 5.83317C8.16683 5.51234 8.0525 5.23759 7.82383 5.00892C7.59516 4.78025 7.32061 4.66611 7.00016 4.6665C6.67933 4.6665 6.40458 4.78084 6.17591 5.0095C5.94725 5.23817 5.83311 5.51273 5.8335 5.83317C5.8335 6.154 5.94783 6.42875 6.1765 6.65742C6.40516 6.88609 6.67972 7.00023 7.00016 6.99984ZM7.00016 12.8332C5.43488 11.5012 4.26588 10.2642 3.49316 9.122C2.72044 7.97984 2.33388 6.92245 2.3335 5.94984C2.3335 4.4915 2.80269 3.3297 3.74108 2.46442C4.67947 1.59914 5.76583 1.1665 7.00016 1.1665C8.23488 1.1665 9.32144 1.59914 10.2598 2.46442C11.1982 3.3297 11.6672 4.4915 11.6668 5.94984C11.6668 6.92206 11.2803 7.97945 10.5072 9.122C9.73405 10.2646 8.56505 11.5016 7.00016 12.8332Z" fill="#FF7700"/>
+                                        </svg>
+                                    <p>Poznań</p>
+                                </div>
+                                <div class="nav__cart-container-boxes-box-content-data">
+                                    <svg class="nav__cart-container-boxes-box-content-svgicon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                        <path d="M7.00016 7.00016C6.3585 7.00016 5.80919 6.77169 5.35225 6.31475C4.8953 5.8578 4.66683 5.3085 4.66683 4.66683C4.66683 4.02516 4.8953 3.47586 5.35225 3.01891C5.80919 2.56197 6.3585 2.3335 7.00016 2.3335C7.64183 2.3335 8.19114 2.56197 8.64808 3.01891C9.10502 3.47586 9.3335 4.02516 9.3335 4.66683C9.3335 5.3085 9.10502 5.8578 8.64808 6.31475C8.19114 6.77169 7.64183 7.00016 7.00016 7.00016ZM2.3335 11.6668V10.0335C2.3335 9.70294 2.41866 9.39902 2.589 9.12175C2.75933 8.84447 2.98527 8.63311 3.26683 8.48766C3.86961 8.18627 4.48211 7.96013 5.10433 7.80925C5.72655 7.65836 6.3585 7.58311 7.00016 7.5835C7.64183 7.5835 8.27377 7.65894 8.896 7.80983C9.51822 7.96072 10.1307 8.18666 10.7335 8.48766C11.0154 8.6335 11.2416 8.84505 11.4119 9.12233C11.5822 9.39961 11.6672 9.70333 11.6668 10.0335V11.6668H2.3335Z" fill="#FF7700"/>
+                                        </svg>
+                                    <p>Wiktor Marecki</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav__cart-container-boxes-box-price">
+                            <p class="nav__cart-container-boxes-box-price-delete">Usuń produkt</p>
+                            <p class="nav__cart-container-boxes-box-price-sum">
+                                <span class="nav__cart-container-boxes-box-price-sum-item">299zł /</span><span> 1szt.</span>
+                            </p>
+                           
+
+
+                            <form method="POST" action="">
+                                <input name="_token" type="hidden" value="">
+                                <input name="_method" type="hidden" value="PUT">
+                                    <div class="nav__cart-container-boxes-box-price-form">
+                                        <div class="nav__cart-container-boxes-box-price-form-minus">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                            <path d="M14.25 9.74854H3.75V8.24854H14.25V9.74854Z" fill="#12263A"/>
+                                            </svg>
+                                        </div>
+                                        <input class="nav__cart-container-boxes-box-price-form-input" name="" type="text" value="1" data-current-value="1" aria-label="" data-hash="">
+                                        <div class="nav__cart-container-boxes-box-price-form-plus"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                            <path d="M14.25 9.74854H9.75V14.2485H8.25V9.74854H3.75V8.24854H8.25V3.74854H9.75V8.24854H14.25V9.74854Z" fill="#12263A"/>
+                                            </svg></div>
+                                    </div>
+                                </form>
+                        </div>
+                    </div>
+
+
+
+
+
+
+  
+                    
+
+
+
+                    
+
+
+
+
+
+
+                    <div class="nav__cart-container-boxes-box">
+                        <img class="nav__cart-container-boxes-box-img" src="https://azarog.pythonanywhere.com/media/course_images/kreatywne-gotowanie-roslinne/zdjecie_3_orginal.jpg">
+                        <div class="nav__cart-container-boxes-box-content">
+                            <p class="nav__cart-container-boxes-box-content-title">Kurs gotowania Włoskiej Kuchni</p>
+                            <div>
+                                <div class="nav__cart-container-boxes-box-content-data">
+                                    <svg class="nav__cart-container-boxes-box-content-svgicon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                        <path d="M8.48734 9.654L9.304 8.82275L7.58317 7.10192V4.6665H6.4165V7.58317L8.48734 9.654ZM6.4165 3.49984H7.58317V2.33317H6.4165V3.49984ZM10.4998 7.58317H11.6665V6.4165H10.4998V7.58317ZM6.4165 11.6665H7.58317V10.4998H6.4165V11.6665ZM2.33317 7.58317H3.49984V6.4165H2.33317V7.58317ZM6.99984 12.8332C6.19289 12.8332 5.43456 12.6799 4.72484 12.3735C4.01512 12.0671 3.39775 11.6515 2.87275 11.1269C2.34775 10.6019 1.93223 9.98456 1.62617 9.27484C1.32012 8.56511 1.16689 7.80678 1.1665 6.99984C1.1665 6.19289 1.31973 5.43456 1.62617 4.72484C1.93262 4.01512 2.34814 3.39775 2.87275 2.87275C3.39775 2.34775 4.01512 1.93223 4.72484 1.62617C5.43456 1.32012 6.19289 1.16689 6.99984 1.1665C7.80678 1.1665 8.56511 1.31973 9.27484 1.62617C9.98456 1.93262 10.6019 2.34814 11.1269 2.87275C11.6519 3.39775 12.0676 4.01512 12.3741 4.72484C12.6805 5.43456 12.8336 6.19289 12.8332 6.99984C12.8332 7.80678 12.6799 8.56511 12.3735 9.27484C12.0671 9.98456 11.6515 10.6019 11.1269 11.1269C10.6019 11.6519 9.98456 12.0676 9.27484 12.3741C8.56511 12.6805 7.80678 12.8336 6.99984 12.8332Z" fill="#FF7700"/>
+                                        </svg>
+                                    <p>2023-11-24</p>
+                                </div>
+                                <div class="nav__cart-container-boxes-box-content-data">
+                                    <svg class="nav__cart-container-boxes-box-content-svgicon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                        <path d="M7.00016 6.99984C7.321 6.99984 7.59575 6.8855 7.82441 6.65684C8.05308 6.42817 8.16722 6.15361 8.16683 5.83317C8.16683 5.51234 8.0525 5.23759 7.82383 5.00892C7.59516 4.78025 7.32061 4.66611 7.00016 4.6665C6.67933 4.6665 6.40458 4.78084 6.17591 5.0095C5.94725 5.23817 5.83311 5.51273 5.8335 5.83317C5.8335 6.154 5.94783 6.42875 6.1765 6.65742C6.40516 6.88609 6.67972 7.00023 7.00016 6.99984ZM7.00016 12.8332C5.43488 11.5012 4.26588 10.2642 3.49316 9.122C2.72044 7.97984 2.33388 6.92245 2.3335 5.94984C2.3335 4.4915 2.80269 3.3297 3.74108 2.46442C4.67947 1.59914 5.76583 1.1665 7.00016 1.1665C8.23488 1.1665 9.32144 1.59914 10.2598 2.46442C11.1982 3.3297 11.6672 4.4915 11.6668 5.94984C11.6668 6.92206 11.2803 7.97945 10.5072 9.122C9.73405 10.2646 8.56505 11.5016 7.00016 12.8332Z" fill="#FF7700"/>
+                                        </svg>
+                                    <p>Poznań</p>
+                                </div>
+                                <div class="nav__cart-container-boxes-box-content-data">
+                                    <svg class="nav__cart-container-boxes-box-content-svgicon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                        <path d="M7.00016 7.00016C6.3585 7.00016 5.80919 6.77169 5.35225 6.31475C4.8953 5.8578 4.66683 5.3085 4.66683 4.66683C4.66683 4.02516 4.8953 3.47586 5.35225 3.01891C5.80919 2.56197 6.3585 2.3335 7.00016 2.3335C7.64183 2.3335 8.19114 2.56197 8.64808 3.01891C9.10502 3.47586 9.3335 4.02516 9.3335 4.66683C9.3335 5.3085 9.10502 5.8578 8.64808 6.31475C8.19114 6.77169 7.64183 7.00016 7.00016 7.00016ZM2.3335 11.6668V10.0335C2.3335 9.70294 2.41866 9.39902 2.589 9.12175C2.75933 8.84447 2.98527 8.63311 3.26683 8.48766C3.86961 8.18627 4.48211 7.96013 5.10433 7.80925C5.72655 7.65836 6.3585 7.58311 7.00016 7.5835C7.64183 7.5835 8.27377 7.65894 8.896 7.80983C9.51822 7.96072 10.1307 8.18666 10.7335 8.48766C11.0154 8.6335 11.2416 8.84505 11.4119 9.12233C11.5822 9.39961 11.6672 9.70333 11.6668 10.0335V11.6668H2.3335Z" fill="#FF7700"/>
+                                        </svg>
+                                    <p>Wiktor Marecki</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav__cart-container-boxes-box-price">
+                            <p class="nav__cart-container-boxes-box-price-delete">Usuń produkt</p>
+                            <p class="nav__cart-container-boxes-box-price-sum">
+                                <span class="nav__cart-container-boxes-box-price-sum-item">299zł /</span><span> 1szt.</span>
+                            </p>
+                           
+
+
+                            <form method="POST" action="">
+                                <input name="_token" type="hidden" value="">
+                                <input name="_method" type="hidden" value="PUT">
+                                    <div class="nav__cart-container-boxes-box-price-form">
+                                        <div class="nav__cart-container-boxes-box-price-form-minus">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                            <path d="M14.25 9.74854H3.75V8.24854H14.25V9.74854Z" fill="#12263A"/>
+                                            </svg>
+                                        </div>
+                                        <input class="nav__cart-container-boxes-box-price-form-input" name="" type="text" value="1" data-current-value="1" aria-label="" data-hash="">
+                                        <div class="nav__cart-container-boxes-box-price-form-plus"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                            <path d="M14.25 9.74854H9.75V14.2485H8.25V9.74854H3.75V8.24854H8.25V3.74854H9.75V8.24854H14.25V9.74854Z" fill="#12263A"/>
+                                            </svg></div>
+                                    </div>
+                                </form>
+                        </div>
+                    </div>
+                    -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <div class="nav__cart-container-footer">
+            <div class="nav__cart-container-footer-line"></div>
+            <div class="nav__cart-container-footer-sum">
+                <p class="nav__cart-container-footer-sum-text">Wartość koszyka</p>
+                <p class="nav__cart-container-footer-sum-text-price"><span>889</span> zł</p>
+            </div>
+            <a title="Poznaj oferte" href="#" class="btn btn--primary nav__cart-container-footer-btn">Do kasy
+                <span class="btn__arrow">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 20L10.575 18.6L16.175 13H4V11H16.175L10.575 5.4L12 4L20 12L12 20Z" fill="white" />
+                    </svg>
+                </span>
+            </a>
+        </div> -->
+
+    </div>
+    <div class="overlay"></div>
+
+
+    <div class="mobile-menu">
+
+        <div class="mobile-menu__first">
+            <div class="mobile-menu__first-box1">
+                <div class="mobile-menu__first-item jsTrainingsBTN">
+                    <div class="mobile-menu__first-txt ">
+                        <p>Szkolenia</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                            stroke="#12263a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-chevron-right">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </div>
+                </div>
+                <a href="/newest" class="mobile-menu__first-item">
+                    <div class="mobile-menu__first-txt">
+                        Nowości
+                    </div>
+                </a>
+                <a href="/blog" class="mobile-menu__first-item">
+                    <div class="mobile-menu__first-txt">
+                        Blog
+                    </div>
+                </a>
+                <a href="/gallery" class="mobile-menu__first-item">
+                    <div class="mobile-menu__first-txt">
+                        Galeria
+                    </div>
+                </a>
+                <a href="/about-us" class="mobile-menu__first-item">
+                    <div class="mobile-menu__first-txt">
+                        O nas
+                    </div>
+                </a>
+                <a href="/faq" class="mobile-menu__first-item">
+                    <div class="mobile-menu__first-txt">
+                        Pytania
+                    </div>
+                </a>
+                <a href="/contact" class="mobile-menu__first-item">
+                    <div class="mobile-menu__first-txt">
+                        Kontakt
+                    </div>
+                </a>
+            </div>
+            <div class="mobile-menu__first-box2">
+
+
+            </div>
+        </div>
+
+        <div class="mobile-menu__second jsShowTrainingsSubmenu">
+
+            <div class="mobile-menu__second-backBTN">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="#1d1d1d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-arrow-left-circle">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 8 8 12 12 16"></polyline>
+                    <line x1="16" y1="12" x2="8" y2="12"></line>
+                </svg>
+                <p>POWRÓT</p>
+            </div>
+
+            <div class="mobile-menu__second-item-box">
+
+                <a href="#" class="mobile-menu__second-item">
+                    <div class="mobile-menu__second-menu">
+                        Dolnośąskie
+                    </div>
+                </a>
+                <a href="#" class="mobile-menu__second-item">
+                    <div class="mobile-menu__second-menu">
+                        Kojawsko-Pomorskie
+                    </div>
+                </a>
+                <a href="#" class="mobile-menu__second-item">
+                    <div class="mobile-menu__second-menu">
+                        Lubelskie
+                    </div>
+                </a>
+                <a href="#" class="mobile-menu__second-item">
+                    <div class="mobile-menu__second-menu">
+                        Lubuskie
+                    </div>
+                </a>
+                <a href="#" class="mobile-menu__second-item">
+                    <div class="mobile-menu__second-menu">
+                        Łódzkie
+                    </div>
+                </a>
+                <a href="#" class="mobile-menu__second-item">
+                    <div class="mobile-menu__second-menu">
+                        Małopolskie
+                    </div>
+                </a>
+                <a href="#" class="mobile-menu__second-item">
+                    <div class="mobile-menu__second-menu">
+                        Mazowieckie
+                    </div>
+                </a>
+                <a href="#" class="mobile-menu__second-item">
+                    <div class="mobile-menu__second-menu">
+                        Opolskie
+                    </div>
+                </a>
+                <a href="#" class="mobile-menu__second-item">
+                    <div class="mobile-menu__second-menu">
+                        Podkarpackie
+                    </div>
+                </a>
+                <a href="#" class="mobile-menu__second-item">
+                    <div class="mobile-menu__second-menu">
+                        Podlaskie
+                    </div>
+                </a>
+                <a href="#" class="mobile-menu__second-item">
+                    <div class="mobile-menu__second-menu">
+                        Pomorskie
+                    </div>
+                </a>
+                <a href="#" class="mobile-menu__second-item">
+                    <div class="mobile-menu__second-menu">
+                        Śląskie
+                    </div>
+                </a>
+                <a href="#" class="mobile-menu__second-item">
+                    <div class="mobile-menu__second-menu">
+                        Świętokrzyskie
+                    </div>
+                </a>
+                <a href="#" class="mobile-menu__second-item">
+                    <div class="mobile-menu__second-menu">
+                        Warmińsko-mazurskie
+                    </div>
+                </a>
+                <a href="#" class="mobile-menu__second-item">
+                    <div class="mobile-menu__second-menu">
+                        Wielkopolskie
+                    </div>
+                </a>
+                <a href="#" class="mobile-menu__second-item">
+                    <div class="mobile-menu__second-menu">
+                        Zachodniopomorskie
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</nav>
+
+
+   <section class="container">
+
+      <div class="article">
+
+         <h1>5 przypraw które dadzą magii twoim potrawom</h1>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore consequuntur fuga laudantium pariatur quo eveniet numquam. Ipsam unde placeat culpa tenetur nesciunt? Est autem nobis sed doloremque nostrum eum neque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque quidem ipsa qui nemo hic.</p>
+
+         <h3>Cynamon</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id fuga repellat quia nam ea consectetur quaerat eum voluptate dicta rerum unde cumque vel fugiat quibusdam labore expedita dolores voluptas necessitatibus eius, similique ex eligendi eos? Architecto harum hic accusantium fugit veniam impedit sunt expedita. Voluptatum laudantium, dignissimos facilis facere quam veritatis in quas autem ut maiores officia nostrum aut nam. </p>
+
+         <h3 class="article__subtitle">Kurkuma</h3>
+         <p class="article__subtxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id fuga repellat quia nam ea consectetur quaerat eum voluptate dicta rerum unde cumque vel fugiat quibusdam labore expedita dolores voluptas necessitatibus eius, similique ex eligendi eos? Architecto harum hic accusantium fugit veniam impedit sunt expedita. Voluptatum laudantium, dignissimos facilis facere quam veritatis in quas autem ut maiores officia nostrum aut nam. </p>
+
+         <h3 class="article__subtitle">Gram masala</h3>
+         <p class="article__subtxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id fuga repellat quia nam ea consectetur quaerat eum voluptate dicta rerum unde cumque vel fugiat quibusdam labore expedita dolores voluptas necessitatibus eius, similique ex eligendi eos? Architecto harum hic accusantium fugit veniam impedit sunt expedita. Voluptatum laudantium, dignissimos facilis facere quam veritatis in quas autem ut maiores officia nostrum aut nam. </p>
+
+         <h3 class="article__subtitle">Imbir</h3>
+         <p class="article__subtxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id fuga repellat quia nam ea consectetur quaerat eum voluptate dicta rerum unde cumque vel fugiat quibusdam labore expedita dolores voluptas necessitatibus eius, similique ex eligendi eos? Architecto harum hic accusantium fugit veniam impedit sunt expedita. Voluptatum laudantium, dignissimos facilis facere quam veritatis in quas autem ut maiores officia nostrum aut nam. </p>
+         <p class="article__subtxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id fuga repellat quia nam ea consectetur quaerat eum voluptate dicta rerum unde cumque vel fugiat quibusdam labore expedita dolores voluptas necessitatibus eius, similique ex eligendi eos? Architecto harum hic accusantium fugit veniam impedit sunt expedita. Voluptatum laudantium, dignissimos facilis facere quam veritatis in quas autem ut maiores officia nostrum aut nam.</p>
+
+
+      </div>
+
+
+
+  
+
+   </section>
+
+
+   </main>
+   <section class="prefoot">
+    <div class="container">
+        <div class="prefoot__entry">
+            <div class="prefoot__entry-name">
+                Dołącz do naszej platformy już dziś i rozpocznij niezapomnianą podróż kulinarną!
+            </div>
+            <a title="Poznaj oferte" href="#" class="btn btn--primary">Poznaj ofertę
+                <span class="btn__arrow">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 20L10.575 18.6L16.175 13H4V11H16.175L10.575 5.4L12 4L20 12L12 20Z" fill="white" />
+                    </svg>
+                </span>
+            </a>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__row">
+            <div class="footer__column">
+                <div class="footer__column-head">
+                    <div class="footer__column-name">
+                        Informacje
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="#FAFAFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-chevron-down">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </div>
+                <div class="footer__column-body">
+                    <ul class="footer__column-list">
+                        <li class="footer__column-item">
+                            <a class="footer__column-link" href="#">O nas</a>
+                        </li>
+                        <li class="footer__column-item">
+                            <a class="footer__column-link" href="#">Kontakt</a>
+                        </li>
+                        <li class="footer__column-item">
+                            <a class="footer__column-link" href="#">Pytania</a>
+                        </li>
+                        <li class="footer__column-item">
+                            <a class="footer__column-link" href="#">Jak dołączyć</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__column">
+                <div class="footer__column-head">
+                    <div class="footer__column-name">
+                        CourseBook
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="#FAFAFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-chevron-down">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </div>
+                <div class="footer__column-body">
+                    <ul class="footer__column-list">
+                        <li class="footer__column-item">
+                            <a class="footer__column-link" href="#">Blog</a>
+                        </li>
+                        <li class="footer__column-item">
+                            <a class="footer__column-link" href="#">Galeria</a>
+                        </li>
+                        <li class="footer__column-item">
+                            <a class="footer__column-link" href="#">Zaloguj się</a>
+                        </li>
+                        <li class="footer__column-item">
+                            <a class="footer__column-link" href="#">Załóż konto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__column">
+                <div class="footer__column-head">
+                    <div class="footer__column-name">
+                        Kontakt
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="#FAFAFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-chevron-down">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </div>
+                <div class="footer__column-body">
+                    <ul class="footer__column-list">
+                        <li class="footer__column-item">
+                            <a class="footer__column-link" href="#">+48 536 918 642</a>
+                        </li>
+                        <li class="footer__column-item">
+                            <a class="footer__column-link" href="#">pomoc@coursebook.pl</a>
+                        </li>
+                    </ul>
+                    <div class="footer__column-socials">
+                        <a class="footer__column-social" href="#">
+                            <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M30.9375 3.9375H5.0625C4.44023 3.9375 3.9375 4.44023 3.9375 5.0625V30.9375C3.9375 31.5598 4.44023 32.0625 5.0625 32.0625H30.9375C31.5598 32.0625 32.0625 31.5598 32.0625 30.9375V5.0625C32.0625 4.44023 31.5598 3.9375 30.9375 3.9375ZM27.6891 12.1465H25.4426C23.6812 12.1465 23.3402 12.9832 23.3402 14.2137V16.9242H27.5449L26.9965 21.1676H23.3402V32.0625H18.9563V21.1711H15.2895V16.9242H18.9563V13.7953C18.9563 10.1637 21.1746 8.18438 24.416 8.18438C25.9699 8.18438 27.3023 8.30039 27.6926 8.35313V12.1465H27.6891Z"
+                                    fill="#FFAD66" />
+                            </svg>
+                        </a>
+                        <a class="footer__column-social" href="#">
+                            <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M11.7 3H24.3C29.1 3 33 6.9 33 11.7V24.3C33 26.6074 32.0834 28.8203 30.4518 30.4518C28.8203 32.0834 26.6074 33 24.3 33H11.7C6.9 33 3 29.1 3 24.3V11.7C3 9.39262 3.9166 7.17974 5.54817 5.54817C7.17974 3.9166 9.39262 3 11.7 3ZM11.4 6C9.96783 6 8.59432 6.56893 7.58162 7.58162C6.56893 8.59432 6 9.96783 6 11.4V24.6C6 27.585 8.415 30 11.4 30H24.6C26.0322 30 27.4057 29.4311 28.4184 28.4184C29.4311 27.4057 30 26.0322 30 24.6V11.4C30 8.415 27.585 6 24.6 6H11.4ZM25.875 8.25C26.3723 8.25 26.8492 8.44754 27.2008 8.79917C27.5525 9.1508 27.75 9.62772 27.75 10.125C27.75 10.6223 27.5525 11.0992 27.2008 11.4508C26.8492 11.8025 26.3723 12 25.875 12C25.3777 12 24.9008 11.8025 24.5492 11.4508C24.1975 11.0992 24 10.6223 24 10.125C24 9.62772 24.1975 9.1508 24.5492 8.79917C24.9008 8.44754 25.3777 8.25 25.875 8.25ZM18 10.5C19.9891 10.5 21.8968 11.2902 23.3033 12.6967C24.7098 14.1032 25.5 16.0109 25.5 18C25.5 19.9891 24.7098 21.8968 23.3033 23.3033C21.8968 24.7098 19.9891 25.5 18 25.5C16.0109 25.5 14.1032 24.7098 12.6967 23.3033C11.2902 21.8968 10.5 19.9891 10.5 18C10.5 16.0109 11.2902 14.1032 12.6967 12.6967C14.1032 11.2902 16.0109 10.5 18 10.5ZM18 13.5C16.8065 13.5 15.6619 13.9741 14.818 14.818C13.9741 15.6619 13.5 16.8065 13.5 18C13.5 19.1935 13.9741 20.3381 14.818 21.182C15.6619 22.0259 16.8065 22.5 18 22.5C19.1935 22.5 20.3381 22.0259 21.182 21.182C22.0259 20.3381 22.5 19.1935 22.5 18C22.5 16.8065 22.0259 15.6619 21.182 14.818C20.3381 13.9741 19.1935 13.5 18 13.5Z"
+                                    fill="#FFAD66" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+   <script src="./dist/js/main.min.js"></script>
+   <div class="overlay"></div>
+</body>
+
+</html>

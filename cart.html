@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Coursebook</title>
+   <style>
+    @font-face {
+        font-family: "Montserrat";
+        font-display: swap;
+        src: url("./dist/fonts/Montserrat-Regular.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "Montserrat";
+        font-display: swap;
+        src: url("./dist/fonts/Montserrat-Medium.ttf") format("truetype");
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "Montserrat";
+        font-display: swap;
+        src: url("./dist/fonts/Montserrat-SemiBold.ttf") format("truetype");
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "Montserrat";
+        font-display: swap;
+        src: url("./dist/fonts/Montserrat-Bold.ttf") format("truetype");
+        font-weight: 700;
+        font-style: normal;
+    }
+</style>
+   <link rel="stylesheet" href="./dist/css/global.min.css">
+   <link rel="stylesheet" href="./dist/css/cart.min.css">
+</head>
+
+<body>
+
+   <head>
+      <div class="mainCart__logo">
+            <div class="container cart-bgc">
+            <a href="/" class="nav__left-logo">CourseBook</a>
+         </div>
+      </div>
+   </head>
+
+   <main class="main">
+
+      <div class="container">
+         <div class="mainCartHead">
+            <div class="mainCartHead__container">
+               <p class="mainCartHead__container-text">Twoje zamówienie</p>
+
+               <div class="mainCartHead__container__boxes">
+
+
+                  <div class="mainCartHead__container__boxes__box-left">
+
+
+
+
+
+
+
+
+
+                     <div class="mainCartHead__container__boxes__box-left-item">
+                        <div class="mainCartHead__container__boxes__box-left-item-head">
+                           <div class="mainCartHead__container__boxes__box-left-item-head-number">
+                              <div class="mainCartHead__container__boxes__box-left-item-head-number-item">
+                                 <p class="mainCartHead__container__boxes__box-left-item-head-number-item-txt">1</p>
+                              </div>
+                              <p class="mainCartHead__container__boxes__box-left-item-head-number-item-txt-title">Twoje
+                                 dane</p>
+                           </div>
+                        </div>
+                        <div class="mainCartHead__container__boxes__box-left-item-body">
+
+                           <form method="POST" action=""
+                              class="jsInstructorForm mainCartHead__container__boxes__box-left-item-body-form"
+                              enctype="multipart/form-data">
+                              <input type="hidden" name="csrfmiddlewaretoken"
+                                 value="3fe1d6iCk3CBHf1nRmuGIadN7GueZo3ilfrqXDEZAn10CszrViuGp5fkpBeFNiVz">
+
+                              <div class="form__row">
+                                 <div class="form__group">
+                                    <input name="first_name" placeholder="Imię" class="form__group-input" type="text">
+                                 </div>
+                                 <div class="form__group">
+                                    <input name="last_name" placeholder="Nazwisko" class="form__group-input"
+                                       type="text">
+                                 </div>
+                              </div>
+                              <div class="mainCartHead__container__boxes__box-left-item-body-form-formColumn">
+                                 <div class="form__group">
+                                    <input name="email" placeholder="Adres e-mail"
+                                       class="form__group-input form__group-input-first" type="email">
+                                 </div>
+                                 <div class="form__group">
+                                    <input name="tel" placeholder="Numer telefonu"
+                                       class="form__group-input form__group-input-second" type="tel">
+                                 </div>
+                              </div>
+                           </form>
+
+                        </div>
+                     </div>
+
+
+
+                     <div class="mainCartHead__container__boxes__box-left-item">
+                        <div class="mainCartHead__container__boxes__box-left-item-head">
+                           <div class="mainCartHead__container__boxes__box-left-item-head-number">
+                              <div class="mainCartHead__container__boxes__box-left-item-head-number-item">
+                                 <p class="mainCartHead__container__boxes__box-left-item-head-number-item-txt">2 </p>
+                              </div>
+                              <p class="mainCartHead__container__boxes__box-left-item-head-number-item-txt-title">Twoje
+                                 dane</p>
+                           </div>
+                        </div>
+                        <div class="mainCartHead__container__boxes__box-left-item-body">
+
+                           <p class="mainCartHead__container__boxes__box-left-item-body-member">Uczestnik 1</p>
+
+                           <form method="POST" action=""
+                              class="jsInstructorForm mainCartHead__container__boxes__box-left-item-body-form"
+                              enctype="multipart/form-data">
+                              <input type="hidden" name="csrfmiddlewaretoken"
+                                 value="3fe1d6iCk3CBHf1nRmuGIadN7GueZo3ilfrqXDEZAn10CszrViuGp5fkpBeFNiVz">
+
+                              <div class="form__row">
+                                 <div class="form__group">
+                                    <input name="first_name" placeholder="Imię" class="form__group-input" type="text">
+                                 </div>
+                                 <div class="form__group">
+                                    <input name="last_name" placeholder="Nazwisko" class="form__group-input"
+                                       type="text">
+                                 </div>
+                              </div>
+                              <div class="mainCartHead__container__boxes__box-left-item-body-form-formColumn">
+                                 <div class="form__group">
+                                    <input name="email" placeholder="Adres e-mail"
+                                       class="form__group-input form__group-input-first" type="email">
+                                 </div>
+                                 <div class="form__group">
+                                    <input name="tel" placeholder="Numer telefonu"
+                                       class="form__group-input form__group-input-second" type="tel">
+                                 </div>
+                              </div>
+                           </form>
+
+
+                        </div>
+                     </div>
+
+
+
+
+
+
+                     <div class="mainCartHead__container__boxes__box-left-btns-form">
+
+                        
+                        <a href="/">
+                           <div class="btn btn--secondary mainCartHead__container__boxes__box-left-btns-back">
+                              <span class="btn__backText">Powrót</span>
+                              <span class="btn__arrowBack">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24"
+                                    fill="none">
+                                    <path
+                                       d="M12.5 4L13.925 5.4L8.325 11L20.5 11L20.5 13L8.325 13L13.925 18.6L12.5 20L4.5 12L12.5 4Z"
+                                       fill="#A4243B" />
+                                 </svg>
+                              </span>
+                           </div>
+                        </a>
+                        
+                        <form class="mainCartHead__container__boxes__box-left-btns-form" action="/cart/add"
+                           method="POST">
+
+                           <button class="btn btn--primary">
+                              Kupuję i płacę
+                              <span class="btn__arrow">
+                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 20L10.575 18.6L16.175 13H4V11H16.175L10.575 5.4L12 4L20 12L12 20Z"
+                                       fill="white"></path>
+                                 </svg>
+                              </span>
+                           </button>
+
+                        </form>
+
+
+                     </div>
+
+
+
+
+                  </div>
+
+
+
+
+                  <div class="mainCartHead__container__boxes__box-right">
+
+
+                     <div class="mainCartHead__container__boxes__box-right__sticky">
+
+                        <div class="mainCartHead__container__boxes__box-right-item">
+                           <div class="mainCartHead__container__boxes__box-right-item-head">
+                              <div class="mainCartHead__container__boxes__box-right-item-head-number">
+                                 <p class="mainCartHead__container__boxes__box-right-item-head-number-item-txt-title">
+                                    Twój
+                                    koszyk</p>
+                              </div>
+                           </div>
+
+
+
+
+
+
+                           <div class="mainCartHead__container__boxes__box-right-item-body">
+                              <div class="nav__cart-container-boxes-box">
+                                 <img class="nav__cart-container-boxes-box-img"
+                                    src="https://azarog.pythonanywhere.com/media/course_images/kreatywne-gotowanie-roslinne/zdjecie_3_orginal.jpg">
+                                 <div class="nav__cart-container-boxes-box-content">
+                                    <p class="nav__cart-container-boxes-box-content-title">Kurs gotowania Włoskiej
+                                       Kuchni
+                                    </p>
+                                    <div class="mainCartHead__container__boxes__box-right-item-body-items">
+                                       <div class="mainCartHead__container__boxes__box-right-item-body-items-data">
+                                          <div class="nav__cart-container-boxes-box-content-data">
+                                             <svg class="nav__cart-container-boxes-box-content-svgicon"
+                                                xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                viewBox="0 0 14 14" fill="none">
+                                                <path
+                                                   d="M8.48734 9.654L9.304 8.82275L7.58317 7.10192V4.6665H6.4165V7.58317L8.48734 9.654ZM6.4165 3.49984H7.58317V2.33317H6.4165V3.49984ZM10.4998 7.58317H11.6665V6.4165H10.4998V7.58317ZM6.4165 11.6665H7.58317V10.4998H6.4165V11.6665ZM2.33317 7.58317H3.49984V6.4165H2.33317V7.58317ZM6.99984 12.8332C6.19289 12.8332 5.43456 12.6799 4.72484 12.3735C4.01512 12.0671 3.39775 11.6515 2.87275 11.1269C2.34775 10.6019 1.93223 9.98456 1.62617 9.27484C1.32012 8.56511 1.16689 7.80678 1.1665 6.99984C1.1665 6.19289 1.31973 5.43456 1.62617 4.72484C1.93262 4.01512 2.34814 3.39775 2.87275 2.87275C3.39775 2.34775 4.01512 1.93223 4.72484 1.62617C5.43456 1.32012 6.19289 1.16689 6.99984 1.1665C7.80678 1.1665 8.56511 1.31973 9.27484 1.62617C9.98456 1.93262 10.6019 2.34814 11.1269 2.87275C11.6519 3.39775 12.0676 4.01512 12.3741 4.72484C12.6805 5.43456 12.8336 6.19289 12.8332 6.99984C12.8332 7.80678 12.6799 8.56511 12.3735 9.27484C12.0671 9.98456 11.6515 10.6019 11.1269 11.1269C10.6019 11.6519 9.98456 12.0676 9.27484 12.3741C8.56511 12.6805 7.80678 12.8336 6.99984 12.8332Z"
+                                                   fill="#FF7700" />
+                                             </svg>
+                                             <p>2023-12-16</p>
+                                          </div>
+                                          <div class="nav__cart-container-boxes-box-content-data">
+                                             <svg class="nav__cart-container-boxes-box-content-svgicon"
+                                                xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                viewBox="0 0 14 14" fill="none">
+                                                <path
+                                                   d="M7.00016 6.99984C7.321 6.99984 7.59575 6.8855 7.82441 6.65684C8.05308 6.42817 8.16722 6.15361 8.16683 5.83317C8.16683 5.51234 8.0525 5.23759 7.82383 5.00892C7.59516 4.78025 7.32061 4.66611 7.00016 4.6665C6.67933 4.6665 6.40458 4.78084 6.17591 5.0095C5.94725 5.23817 5.83311 5.51273 5.8335 5.83317C5.8335 6.154 5.94783 6.42875 6.1765 6.65742C6.40516 6.88609 6.67972 7.00023 7.00016 6.99984ZM7.00016 12.8332C5.43488 11.5012 4.26588 10.2642 3.49316 9.122C2.72044 7.97984 2.33388 6.92245 2.3335 5.94984C2.3335 4.4915 2.80269 3.3297 3.74108 2.46442C4.67947 1.59914 5.76583 1.1665 7.00016 1.1665C8.23488 1.1665 9.32144 1.59914 10.2598 2.46442C11.1982 3.3297 11.6672 4.4915 11.6668 5.94984C11.6668 6.92206 11.2803 7.97945 10.5072 9.122C9.73405 10.2646 8.56505 11.5016 7.00016 12.8332Z"
+                                                   fill="#FF7700" />
+                                             </svg>
+                                             <p>Warszawa</p>
+                                          </div>
+                                          <div class="nav__cart-container-boxes-box-content-data">
+                                             <svg class="nav__cart-container-boxes-box-content-svgicon"
+                                                xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                viewBox="0 0 14 14" fill="none">
+                                                <path
+                                                   d="M7.00016 7.00016C6.3585 7.00016 5.80919 6.77169 5.35225 6.31475C4.8953 5.8578 4.66683 5.3085 4.66683 4.66683C4.66683 4.02516 4.8953 3.47586 5.35225 3.01891C5.80919 2.56197 6.3585 2.3335 7.00016 2.3335C7.64183 2.3335 8.19114 2.56197 8.64808 3.01891C9.10502 3.47586 9.3335 4.02516 9.3335 4.66683C9.3335 5.3085 9.10502 5.8578 8.64808 6.31475C8.19114 6.77169 7.64183 7.00016 7.00016 7.00016ZM2.3335 11.6668V10.0335C2.3335 9.70294 2.41866 9.39902 2.589 9.12175C2.75933 8.84447 2.98527 8.63311 3.26683 8.48766C3.86961 8.18627 4.48211 7.96013 5.10433 7.80925C5.72655 7.65836 6.3585 7.58311 7.00016 7.5835C7.64183 7.5835 8.27377 7.65894 8.896 7.80983C9.51822 7.96072 10.1307 8.18666 10.7335 8.48766C11.0154 8.6335 11.2416 8.84505 11.4119 9.12233C11.5822 9.39961 11.6672 9.70333 11.6668 10.0335V11.6668H2.3335Z"
+                                                   fill="#FF7700" />
+                                             </svg>
+                                             <p>Jacek Kowalski</p>
+                                          </div>
+                                       </div>
+                                       <div class="nav__cart-container-boxes-box-price">
+                                          <p class="nav__cart-container-boxes-box-price-sum">
+                                             <span class="nav__cart-container-boxes-box-price-sum-item">299zł
+                                                /</span><span>
+                                                1szt.</span>
+                                          </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+
+
+
+
+
+
+                           <div class="mainCartHead__container__boxes__box-right-item-body">
+                              <div class="nav__cart-container-boxes-box">
+                                 <img class="nav__cart-container-boxes-box-img"
+                                    src="https://azarog.pythonanywhere.com/media/course_images/kreatywne-gotowanie-roslinne/zdjecie_3_orginal.jpg">
+                                 <div class="nav__cart-container-boxes-box-content">
+                                    <p class="nav__cart-container-boxes-box-content-title">Kurs gotowania Włoskiej
+                                       Kuchni
+                                    </p>
+                                    <div class="mainCartHead__container__boxes__box-right-item-body-items">
+                                       <div class="mainCartHead__container__boxes__box-right-item-body-items-data">
+                                          <div class="nav__cart-container-boxes-box-content-data">
+                                             <svg class="nav__cart-container-boxes-box-content-svgicon"
+                                                xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                viewBox="0 0 14 14" fill="none">
+                                                <path
+                                                   d="M8.48734 9.654L9.304 8.82275L7.58317 7.10192V4.6665H6.4165V7.58317L8.48734 9.654ZM6.4165 3.49984H7.58317V2.33317H6.4165V3.49984ZM10.4998 7.58317H11.6665V6.4165H10.4998V7.58317ZM6.4165 11.6665H7.58317V10.4998H6.4165V11.6665ZM2.33317 7.58317H3.49984V6.4165H2.33317V7.58317ZM6.99984 12.8332C6.19289 12.8332 5.43456 12.6799 4.72484 12.3735C4.01512 12.0671 3.39775 11.6515 2.87275 11.1269C2.34775 10.6019 1.93223 9.98456 1.62617 9.27484C1.32012 8.56511 1.16689 7.80678 1.1665 6.99984C1.1665 6.19289 1.31973 5.43456 1.62617 4.72484C1.93262 4.01512 2.34814 3.39775 2.87275 2.87275C3.39775 2.34775 4.01512 1.93223 4.72484 1.62617C5.43456 1.32012 6.19289 1.16689 6.99984 1.1665C7.80678 1.1665 8.56511 1.31973 9.27484 1.62617C9.98456 1.93262 10.6019 2.34814 11.1269 2.87275C11.6519 3.39775 12.0676 4.01512 12.3741 4.72484C12.6805 5.43456 12.8336 6.19289 12.8332 6.99984C12.8332 7.80678 12.6799 8.56511 12.3735 9.27484C12.0671 9.98456 11.6515 10.6019 11.1269 11.1269C10.6019 11.6519 9.98456 12.0676 9.27484 12.3741C8.56511 12.6805 7.80678 12.8336 6.99984 12.8332Z"
+                                                   fill="#FF7700" />
+                                             </svg>
+                                             <p>2023-12-16</p>
+                                          </div>
+                                          <div class="nav__cart-container-boxes-box-content-data">
+                                             <svg class="nav__cart-container-boxes-box-content-svgicon"
+                                                xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                viewBox="0 0 14 14" fill="none">
+                                                <path
+                                                   d="M7.00016 6.99984C7.321 6.99984 7.59575 6.8855 7.82441 6.65684C8.05308 6.42817 8.16722 6.15361 8.16683 5.83317C8.16683 5.51234 8.0525 5.23759 7.82383 5.00892C7.59516 4.78025 7.32061 4.66611 7.00016 4.6665C6.67933 4.6665 6.40458 4.78084 6.17591 5.0095C5.94725 5.23817 5.83311 5.51273 5.8335 5.83317C5.8335 6.154 5.94783 6.42875 6.1765 6.65742C6.40516 6.88609 6.67972 7.00023 7.00016 6.99984ZM7.00016 12.8332C5.43488 11.5012 4.26588 10.2642 3.49316 9.122C2.72044 7.97984 2.33388 6.92245 2.3335 5.94984C2.3335 4.4915 2.80269 3.3297 3.74108 2.46442C4.67947 1.59914 5.76583 1.1665 7.00016 1.1665C8.23488 1.1665 9.32144 1.59914 10.2598 2.46442C11.1982 3.3297 11.6672 4.4915 11.6668 5.94984C11.6668 6.92206 11.2803 7.97945 10.5072 9.122C9.73405 10.2646 8.56505 11.5016 7.00016 12.8332Z"
+                                                   fill="#FF7700" />
+                                             </svg>
+                                             <p>Warszawa</p>
+                                          </div>
+                                          <div class="nav__cart-container-boxes-box-content-data">
+                                             <svg class="nav__cart-container-boxes-box-content-svgicon"
+                                                xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                viewBox="0 0 14 14" fill="none">
+                                                <path
+                                                   d="M7.00016 7.00016C6.3585 7.00016 5.80919 6.77169 5.35225 6.31475C4.8953 5.8578 4.66683 5.3085 4.66683 4.66683C4.66683 4.02516 4.8953 3.47586 5.35225 3.01891C5.80919 2.56197 6.3585 2.3335 7.00016 2.3335C7.64183 2.3335 8.19114 2.56197 8.64808 3.01891C9.10502 3.47586 9.3335 4.02516 9.3335 4.66683C9.3335 5.3085 9.10502 5.8578 8.64808 6.31475C8.19114 6.77169 7.64183 7.00016 7.00016 7.00016ZM2.3335 11.6668V10.0335C2.3335 9.70294 2.41866 9.39902 2.589 9.12175C2.75933 8.84447 2.98527 8.63311 3.26683 8.48766C3.86961 8.18627 4.48211 7.96013 5.10433 7.80925C5.72655 7.65836 6.3585 7.58311 7.00016 7.5835C7.64183 7.5835 8.27377 7.65894 8.896 7.80983C9.51822 7.96072 10.1307 8.18666 10.7335 8.48766C11.0154 8.6335 11.2416 8.84505 11.4119 9.12233C11.5822 9.39961 11.6672 9.70333 11.6668 10.0335V11.6668H2.3335Z"
+                                                   fill="#FF7700" />
+                                             </svg>
+                                             <p>Jacek Kowalski</p>
+                                          </div>
+                                       </div>
+                                       <div class="nav__cart-container-boxes-box-price">
+                                          <p class="nav__cart-container-boxes-box-price-sum">
+                                             <span class="nav__cart-container-boxes-box-price-sum-item">299zł
+                                                /</span><span>
+                                                1szt.</span>
+                                          </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+
+
+
+
+
+
+
+
+                        </div>
+
+
+
+                        <div class="mainCartHead__container__boxes__box-right-item">
+                           <div class="mainCartHead__container__boxes__box-right-item-head">
+                              <div class="mainCartHead__container__boxes__box-right-item-head-number">
+                                 <p class="mainCartHead__container__boxes__box-right-item-head-number-item-txt-title">
+                                    Podsumowanie</p>
+                              </div>
+                           </div>
+
+
+                           <div class="mainCartHead__container__boxes__box-right-item-worth">
+                              <p>Wartość produktów:</p>
+                              <p>589zł</p>
+                           </div>
+
+                           <div class="mainCartHead__container__boxes__box-right-item-sum">
+                              <p class="mainCartHead__container__boxes__box-right-item-sum-text">Do zapłaty</p>
+                              <p class="mainCartHead__container__boxes__box-right-item-sum-text">589zł</p>
+                           </div>
+
+
+
+
+
+
+
+                        </div>
+
+                     </div>
+
+
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </div>
+      </section>
+
+
+
+
+
+   </main>
+   <section class="prefoot">
+    <div class="container">
+        <div class="prefoot__entry">
+            <div class="prefoot__entry-name">
+                Dołącz do naszej platformy już dziś i rozpocznij niezapomnianą podróż kulinarną!
+            </div>
+            <a title="Poznaj oferte" href="#" class="btn btn--primary">Poznaj ofertę
+                <span class="btn__arrow">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 20L10.575 18.6L16.175 13H4V11H16.175L10.575 5.4L12 4L20 12L12 20Z" fill="white" />
+                    </svg>
+                </span>
+            </a>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__row">
+            <div class="footer__column">
+                <div class="footer__column-head">
+                    <div class="footer__column-name">
+                        Informacje
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="#FAFAFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-chevron-down">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </div>
+                <div class="footer__column-body">
+                    <ul class="footer__column-list">
+                        <li class="footer__column-item">
+                            <a class="footer__column-link" href="#">O nas</a>
+                        </li>
+                        <li class="footer__column-item">
+                            <a class="footer__column-link" href="#">Kontakt</a>
+                        </li>
+                        <li class="footer__column-item">
+                            <a class="footer__column-link" href="#">Pytania</a>
+                        </li>
+                        <li class="footer__column-item">
+                            <a class="footer__column-link" href="#">Jak dołączyć</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__column">
+                <div class="footer__column-head">
+                    <div class="footer__column-name">
+                        CourseBook
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="#FAFAFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-chevron-down">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </div>
+                <div class="footer__column-body">
+                    <ul class="footer__column-list">
+                        <li class="footer__column-item">
+                            <a class="footer__column-link" href="#">Blog</a>
+                        </li>
+                        <li class="footer__column-item">
+                            <a class="footer__column-link" href="#">Galeria</a>
+                        </li>
+                        <li class="footer__column-item">
+                            <a class="footer__column-link" href="#">Zaloguj się</a>
+                        </li>
+                        <li class="footer__column-item">
+                            <a class="footer__column-link" href="#">Załóż konto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__column">
+                <div class="footer__column-head">
+                    <div class="footer__column-name">
+                        Kontakt
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="#FAFAFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-chevron-down">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </div>
+                <div class="footer__column-body">
+                    <ul class="footer__column-list">
+                        <li class="footer__column-item">
+                            <a class="footer__column-link" href="#">+48 536 918 642</a>
+                        </li>
+                        <li class="footer__column-item">
+                            <a class="footer__column-link" href="#">pomoc@coursebook.pl</a>
+                        </li>
+                    </ul>
+                    <div class="footer__column-socials">
+                        <a class="footer__column-social" href="#">
+                            <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M30.9375 3.9375H5.0625C4.44023 3.9375 3.9375 4.44023 3.9375 5.0625V30.9375C3.9375 31.5598 4.44023 32.0625 5.0625 32.0625H30.9375C31.5598 32.0625 32.0625 31.5598 32.0625 30.9375V5.0625C32.0625 4.44023 31.5598 3.9375 30.9375 3.9375ZM27.6891 12.1465H25.4426C23.6812 12.1465 23.3402 12.9832 23.3402 14.2137V16.9242H27.5449L26.9965 21.1676H23.3402V32.0625H18.9563V21.1711H15.2895V16.9242H18.9563V13.7953C18.9563 10.1637 21.1746 8.18438 24.416 8.18438C25.9699 8.18438 27.3023 8.30039 27.6926 8.35313V12.1465H27.6891Z"
+                                    fill="#FFAD66" />
+                            </svg>
+                        </a>
+                        <a class="footer__column-social" href="#">
+                            <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M11.7 3H24.3C29.1 3 33 6.9 33 11.7V24.3C33 26.6074 32.0834 28.8203 30.4518 30.4518C28.8203 32.0834 26.6074 33 24.3 33H11.7C6.9 33 3 29.1 3 24.3V11.7C3 9.39262 3.9166 7.17974 5.54817 5.54817C7.17974 3.9166 9.39262 3 11.7 3ZM11.4 6C9.96783 6 8.59432 6.56893 7.58162 7.58162C6.56893 8.59432 6 9.96783 6 11.4V24.6C6 27.585 8.415 30 11.4 30H24.6C26.0322 30 27.4057 29.4311 28.4184 28.4184C29.4311 27.4057 30 26.0322 30 24.6V11.4C30 8.415 27.585 6 24.6 6H11.4ZM25.875 8.25C26.3723 8.25 26.8492 8.44754 27.2008 8.79917C27.5525 9.1508 27.75 9.62772 27.75 10.125C27.75 10.6223 27.5525 11.0992 27.2008 11.4508C26.8492 11.8025 26.3723 12 25.875 12C25.3777 12 24.9008 11.8025 24.5492 11.4508C24.1975 11.0992 24 10.6223 24 10.125C24 9.62772 24.1975 9.1508 24.5492 8.79917C24.9008 8.44754 25.3777 8.25 25.875 8.25ZM18 10.5C19.9891 10.5 21.8968 11.2902 23.3033 12.6967C24.7098 14.1032 25.5 16.0109 25.5 18C25.5 19.9891 24.7098 21.8968 23.3033 23.3033C21.8968 24.7098 19.9891 25.5 18 25.5C16.0109 25.5 14.1032 24.7098 12.6967 23.3033C11.2902 21.8968 10.5 19.9891 10.5 18C10.5 16.0109 11.2902 14.1032 12.6967 12.6967C14.1032 11.2902 16.0109 10.5 18 10.5ZM18 13.5C16.8065 13.5 15.6619 13.9741 14.818 14.818C13.9741 15.6619 13.5 16.8065 13.5 18C13.5 19.1935 13.9741 20.3381 14.818 21.182C15.6619 22.0259 16.8065 22.5 18 22.5C19.1935 22.5 20.3381 22.0259 21.182 21.182C22.0259 20.3381 22.5 19.1935 22.5 18C22.5 16.8065 22.0259 15.6619 21.182 14.818C20.3381 13.9741 19.1935 13.5 18 13.5Z"
+                                    fill="#FFAD66" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+   <script src="./dist/js/main.min.js"></script>
+   <div class="overlay"></div>
+</body>
+
+</html>

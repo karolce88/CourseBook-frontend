@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coursebook</title>
+    <!-- @include 'font_style.kit' -->
+    <link rel="stylesheet" href="./dist/css/global.min.css">
+    <link rel="stylesheet" href="./dist/css/account.min.css">
+
+
+</head>
+
+<body class="special">
+    <!-- @include 'nav.kit' -->
+    <main>
+        <section class="user-bar">
+            <div class="container">
+                <div class="user-bar__inner">
+                    <div class="user-bar__user">
+                        admin@wp.pl
+                    </div>
+                    <div class="user-bar__logout">
+                        <svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6.66667 27.5C5.93334 27.5 5.30534 27.2387 4.78267 26.716C4.26 26.1933 3.99911 25.5658 4 24.8333V6.16667C4 5.43334 4.26134 4.80534 4.784 4.28267C5.30667 3.76 5.93422 3.49911 6.66667 3.5H16V6.16667H6.66667V24.8333H16V27.5H6.66667ZM21.3333 22.1667L19.5 20.2333L22.9 16.8333H12V14.1667H22.9L19.5 10.7667L21.3333 8.83334L28 15.5L21.3333 22.1667Z"
+                                fill="#12263A" />
+                        </svg>
+                        Wyloguj się
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="control">
+            <div class="container">
+                <div class="control__inner">
+                    <a href="#" class="control__box">
+                        <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7 24.5H10.5C11.4625 24.5 12.25 23.7125 12.25 22.75V19.25C12.25 18.2875 11.4625 17.5 10.5 17.5H7C6.0375 17.5 5.25 18.2875 5.25 19.25V22.75C5.25 23.7125 6.0375 24.5 7 24.5ZM7 33.25H10.5C11.4625 33.25 12.25 32.4625 12.25 31.5V28C12.25 27.0375 11.4625 26.25 10.5 26.25H7C6.0375 26.25 5.25 27.0375 5.25 28V31.5C5.25 32.4625 6.0375 33.25 7 33.25ZM7 15.75H10.5C11.4625 15.75 12.25 14.9625 12.25 14V10.5C12.25 9.5375 11.4625 8.75 10.5 8.75H7C6.0375 8.75 5.25 9.5375 5.25 10.5V14C5.25 14.9625 6.0375 15.75 7 15.75ZM15.75 24.5H35C35.9625 24.5 36.75 23.7125 36.75 22.75V19.25C36.75 18.2875 35.9625 17.5 35 17.5H15.75C14.7875 17.5 14 18.2875 14 19.25V22.75C14 23.7125 14.7875 24.5 15.75 24.5ZM15.75 33.25H35C35.9625 33.25 36.75 32.4625 36.75 31.5V28C36.75 27.0375 35.9625 26.25 35 26.25H15.75C14.7875 26.25 14 27.0375 14 28V31.5C14 32.4625 14.7875 33.25 15.75 33.25ZM14 10.5V14C14 14.9625 14.7875 15.75 15.75 15.75H35C35.9625 15.75 36.75 14.9625 36.75 14V10.5C36.75 9.5375 35.9625 8.75 35 8.75H15.75C14.7875 8.75 14 9.5375 14 10.5Z"
+                                fill="#FF7700" />
+                        </svg>
+                        Twoje kursy
+                    </a>
+                    <a href="#" class="control__box control__box--active">
+                        <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M25.02 19.4137C22.78 18.267 19.8733 17.3337 16.5 17.3337C13.1267 17.3337 10.22 18.267 7.98001 19.4137C7.32942 19.7488 6.78441 20.2576 6.40547 20.8836C6.02654 21.5097 5.8285 22.2285 5.83334 22.9603V26.667H27.1667V22.9603C27.1667 21.467 26.3533 20.0937 25.02 19.4137ZM13.8333 16.0003H19.1667C21.38 16.0003 23.1667 14.2137 23.1667 12.0003C23.1667 11.027 22.8067 10.1337 22.22 9.44033C22.3933 9.00033 22.5 8.50699 22.5 8.00033C22.4987 7.20835 22.2623 6.43459 21.8208 5.77709C21.3793 5.11959 20.7526 4.60794 20.02 4.30699C19.1667 3.30699 17.9133 2.66699 16.5 2.66699C15.0867 2.66699 13.8333 3.30699 12.98 4.30699C12.2474 4.60794 11.6207 5.11959 11.1792 5.77709C10.7377 6.43459 10.5013 7.20835 10.5 8.00033C10.5 8.50699 10.6067 9.00033 10.78 9.44033C10.1933 10.1337 9.83334 11.027 9.83334 12.0003C9.83334 14.2137 11.62 16.0003 13.8333 16.0003Z"
+                                fill="#FF7700" />
+                        </svg>
+                        Twoi prowadzący
+                    </a>
+                    <a href="#" class="control__box">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4 24H20V21.3333H4V24ZM4 8V10.6667H28V8H4ZM4 17.3333H28V14.6667H4V17.3333Z"
+                                fill="#FF7700" />
+                        </svg>
+                        Twoje wipsy
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="list">
+            <div class="container">
+                <div class="list__inner">
+                    <div class="list__panel">
+                        <div class="list__panel-counter">
+                            1 prowadzący
+                        </div>
+                        <div data-action="instructor" class="list__panel-add jsAccountAdd">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M17.3333 9.33366H14.6666V14.667H9.33329V17.3337H14.6666V22.667H17.3333V17.3337H22.6666V14.667H17.3333V9.33366ZM16 2.66699C8.63996 2.66699 2.66663 8.64033 2.66663 16.0003C2.66663 23.3603 8.63996 29.3337 16 29.3337C23.36 29.3337 29.3333 23.3603 29.3333 16.0003C29.3333 8.64033 23.36 2.66699 16 2.66699ZM16 26.667C10.12 26.667 5.33329 21.8803 5.33329 16.0003C5.33329 10.1203 10.12 5.33366 16 5.33366C21.88 5.33366 26.6666 10.1203 26.6666 16.0003C26.6666 21.8803 21.88 26.667 16 26.667Z"
+                                    fill="#FF7700" />
+                            </svg>
+                            Dodaj prowadzącego
+                        </div>
+                    </div>
+                    <!-- <div class="list__item list__item--instructor">
+                        <div class="list__item-image">
+                            <img loading="lazy" width="200" height="100" src="../dist/img/kursy/card_1.jpg" alt="">
+                        </div>
+                        <div class="list__item-box">
+                            <p class="list__box-title">Imię Nazwizko</p>
+                            <p class="list__box-name">Marek Wariacki</p>
+                        </div>
+                        <div class="list__item-box">
+                            <p class="list__box-title">Status</p>
+                            <p class="list__box-name">Prowadzący</p>
+                        </div>
+                        <a class="list__item-edit" href="#">Edytuj</a>
+                    </div> -->
+                    <div class="list__empty">
+                        <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11.6499 10.6002C11.6499 11.4356 11.318 12.2368 10.7272 12.8276C10.1365 13.4183 9.33529 13.7502 8.49985 13.7502C7.66442 13.7502 6.86321 13.4183 6.27247 12.8276C5.68173 12.2368 5.34985 11.4356 5.34985 10.6002C5.34985 9.76476 5.68173 8.96355 6.27247 8.37281C6.86321 7.78207 7.66442 7.4502 8.49985 7.4502C9.33529 7.4502 10.1365 7.78207 10.7272 8.37281C11.318 8.96355 11.6499 9.76476 11.6499 10.6002ZM11.6499 19.0002C11.6499 19.8356 11.318 20.6368 10.7272 21.2276C10.1365 21.8183 9.33529 22.1502 8.49985 22.1502C7.66442 22.1502 6.86321 21.8183 6.27247 21.2276C5.68173 20.6368 5.34985 19.8356 5.34985 19.0002C5.34985 18.1648 5.68173 17.3635 6.27247 16.7728C6.86321 16.1821 7.66442 15.8502 8.49985 15.8502C9.33529 15.8502 10.1365 16.1821 10.7272 16.7728C11.318 17.3635 11.6499 18.1648 11.6499 19.0002ZM11.6499 27.4002C11.6499 28.2356 11.318 29.0368 10.7272 29.6276C10.1365 30.2183 9.33529 30.5502 8.49985 30.5502C7.66442 30.5502 6.86321 30.2183 6.27247 29.6276C5.68173 29.0368 5.34985 28.2356 5.34985 27.4002C5.34985 26.5648 5.68173 25.7635 6.27247 25.1728C6.86321 24.5821 7.66442 24.2502 8.49985 24.2502C9.33529 24.2502 10.1365 24.5821 10.7272 25.1728C11.318 25.7635 11.6499 26.5648 11.6499 27.4002Z"
+                                fill="#FF7700" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M13.75 10.6C13.75 10.043 13.9712 9.5089 14.3651 9.11508C14.7589 8.72125 15.293 8.5 15.85 8.5H30.55C31.107 8.5 31.6411 8.72125 32.0349 9.11508C32.4288 9.5089 32.65 10.043 32.65 10.6C32.65 11.157 32.4288 11.6911 32.0349 12.0849C31.6411 12.4788 31.107 12.7 30.55 12.7H15.85C15.293 12.7 14.7589 12.4788 14.3651 12.0849C13.9712 11.6911 13.75 11.157 13.75 10.6ZM13.75 19C13.75 18.443 13.9712 17.9089 14.3651 17.5151C14.7589 17.1212 15.293 16.9 15.85 16.9H30.55C31.107 16.9 31.6411 17.1212 32.0349 17.5151C32.4288 17.9089 32.65 18.443 32.65 19C32.65 19.557 32.4288 20.0911 32.0349 20.4849C31.6411 20.8787 31.107 21.1 30.55 21.1H15.85C15.293 21.1 14.7589 20.8787 14.3651 20.4849C13.9712 20.0911 13.75 19.557 13.75 19ZM13.75 27.4C13.75 26.843 13.9712 26.3089 14.3651 25.9151C14.7589 25.5212 15.293 25.3 15.85 25.3H30.55C31.107 25.3 31.6411 25.5212 32.0349 25.9151C32.4288 26.3089 32.65 26.843 32.65 27.4C32.65 27.957 32.4288 28.4911 32.0349 28.8849C31.6411 29.2787 31.107 29.5 30.55 29.5H15.85C15.293 29.5 14.7589 29.2787 14.3651 28.8849C13.9712 28.4911 13.75 27.957 13.75 27.4Z"
+                                fill="#FF7700" />
+                            <path
+                                d="M0.715227 3.68487C0.332695 3.28881 0.121027 2.75834 0.125812 2.20773C0.130596 1.65712 0.351451 1.13041 0.740808 0.741052C1.13017 0.351695 1.65687 0.130841 2.20748 0.126056C2.7581 0.121271 3.28856 0.332939 3.68463 0.715471L37.2846 34.3155C37.6672 34.7115 37.8788 35.242 37.874 35.7926C37.8693 36.3432 37.6484 36.8699 37.259 37.2593C36.8697 37.6486 36.343 37.8695 35.7924 37.8743C35.2418 37.8791 34.7113 37.6674 34.3152 37.2849L0.715227 3.68487Z"
+                                fill="#FF7700" />
+                        </svg>
+                        <p class="list__empty-name">Brak kursów</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="drawer">
+            <div class="drawer__container">
+                <div class="drawer__heading">
+                    <div class="drawer__back">
+                        <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M34.125 5.25H36.75V36.75H34.125V5.25ZM14.9809 27.0191L10.2743 22.3125H28.875V19.6875H10.2743L14.9809 14.9809L13.125 13.125L5.25 21L13.125 28.875L14.9809 27.0191Z"
+                                fill="#A4243B" />
+                        </svg>
+                        Powrót
+                    </div>
+                    Dodaj prowadzącego
+                </div>
+                <form method="POST" action="" class="form">
+                    <div class="form__row">
+                        <div class="form__group">
+                            <input placeholder="Imię" class="form__group-input" type="text">
+                        </div>
+                        <div class="form__group">
+                            <input placeholder="Nazwisko" class="form__group-input" type="text">
+                        </div>
+                    </div>
+                    <div class="form__row">
+                        <div class="form__group">
+                            <textarea placeholder="Opis" class="form__group-input" rows="10" name="" id=""></textarea>
+                        </div>
+                    </div>
+                    <!-- <div class="form__row">
+                        <div class="form__group">
+                            <input placeholder="zdjęcie" class="form__group-input" type="file">
+                        </div>
+                    </div> -->
+                    <div class="form__row">
+                        <div class="form__images">
+                            <label class="form__images-image">
+                                <span>Wybierz zdjęcie</span>
+                                <input type="file">
+                            </label>
+                            <label class="form__images-image">
+                                <span>Wybierz zdjęcie</span>
+                                <input type="file">
+                            </label>
+                            <label class="form__images-image">
+                                <span>Wybierz zdjęcie</span>
+                                <input type="file">
+                            </label>
+                            <label class="form__images-image">
+                                <span>Wybierz zdjęcie</span>
+                                <input type="file">
+                            </label>
+                            <label class="form__images-image">
+                                <span>Wybierz zdjęcie</span>
+                                <input type="file">
+                            </label>
+                        </div>
+                        <!-- <div class="form__add-image ">
+                            Dodaj zdjęcie
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="#f70" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-file-plus">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                <polyline points="14 2 14 8 20 8"></polyline>
+                                <line x1="12" y1="18" x2="12" y2="12"></line>
+                                <line x1="9" y1="15" x2="15" y2="15"></line>
+                            </svg>
+                        </div> -->
+                        <!-- <div class="form__add-image ">
+                            Dodaj zdjęcie
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="#f70" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-file-plus">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                <polyline points="14 2 14 8 20 8"></polyline>
+                                <line x1="12" y1="18" x2="12" y2="12"></line>
+                                <line x1="9" y1="15" x2="15" y2="15"></line>
+                            </svg>
+                        </div> -->
+                    </div>
+                    <div class="form__row">
+                        <div class="form__images">
+                        </div>
+                    </div>
+                    <div class="form__submit-box">
+                        <button class="btn btn--primary">
+                            Dodaj
+                            <span class="btn__arrow">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 20L10.575 18.6L16.175 13H4V11H16.175L10.575 5.4L12 4L20 12L12 20Z"
+                                        fill="white" />
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <!-- @include 'footer.kit' -->
+    <script src="./dist/js/main.min.js"></script>
+    <div class="overlay"></div>
+</body>
+
+</html>
+<!-- <div class="form__images-image">
+                                <div class="form__images-delete">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                        fill="none" stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-x">
+                                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                                    </svg>
+                                </div>
+                                <img width="150" height="150" loading="lazy" src="./dist/img/blog/blog_small.jpg"
+                                    alt="">
+                                <input name="image" type="file">
+                            </div> -->
